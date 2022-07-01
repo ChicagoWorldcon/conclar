@@ -1,0 +1,8 @@
+# all files that are not required in our build
+Dockerfile
+.dockerignore
+.gitignore
+docs
+
+# Artifacts that will be built during image creation
+node_modules
