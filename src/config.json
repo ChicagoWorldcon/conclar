@@ -1,17 +1,17 @@
 {
   "BASE_PATH": "/",
-  "APP_ID": "O2021",
-  "APP_TITLE": "ConClár Programme Guide",
+  "APP_ID": "W2022",
+  "APP_TITLE": "Chicon 8 Program Guide",
   "PROGRAM_DATA_URL": "https://zambia.octocon.com/konOpasData.jsonp",
   "PEOPLE_DATA_URL": "https://zambia.octocon.com/konOpasData.jsonp",
-  "TIMEZONE": "Europe/Dublin",
+  "TIMEZONE": "America/Central",
   "INTERACTIVE": true,
   "NAVIGATION": {
-    "PROGRAM": "Programme",
+    "PROGRAM": "Program",
     "PEOPLE": "People",
     "MYSCHEDULE": "My Schedule",
     "INFO": "Information",
-    "EXTRA": [{ "LABEL": "Octocon Home", "URL": "https://octocon.com" }]
+    "EXTRA": [{ "LABEL": "Chicon 8 Home", "URL": "https://chicon.org" }]
   },
   "LOCATIONS": {
     "SEARCHABLE": false
@@ -26,7 +26,7 @@
     "FORMAT_AS_TAG": false
   },
   "PERMALINK": {
-    "SHOW_PERMALINK": true,
+    "SHOW_PERMALINK": false,
     "PERMALINK_TITLE": "Permalink"
   },
   "EXPAND": {
@@ -59,7 +59,7 @@
     "FAILURE": "Unable to convert to local time."
   },
   "TIME_FORMAT": {
-    "DEFAULT_12HR": false,
+    "DEFAULT_12HR": true,
     "SHOW_CHECKBOX": true,
     "CHECKBOX_LABEL": "Show 12 hour time"
   },
@@ -77,8 +77,8 @@
       "MODERATOR_LABEL": "(moderator)"
     },
     "THUMBNAILS": {
-      "SHOW_THUMBNAILS": true,
-      "SHOW_CHECKBOX": true,
+      "SHOW_THUMBNAILS": false,
+      "SHOW_CHECKBOX": false,
       "CHECKBOX_LABEL": "Show thumbnails",
       "DEFAULT_IMAGE": "head.svg"
     },
@@ -99,7 +99,7 @@
     "CHECKBOX_LABEL": "Useless checkbox"
   },
   "INFORMATION": {
-    "MARKDOWN_URL": "info.md",
+    "MARKDOWN_URL": "chicon8_info.md",
     "LOADING_MESSAGE": "Loading..."
   },
   "FOOTER": {
