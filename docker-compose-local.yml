@@ -4,7 +4,6 @@ services:
     # command: /opt/planorama/script/planorama_start.sh
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile-local
     ports:
-      #- "2382:3000"
       - "3000:3000"

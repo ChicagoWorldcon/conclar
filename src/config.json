@@ -4,7 +4,7 @@
   "APP_TITLE": "Chicon 8 Program Guide",
   "PROGRAM_DATA_URL": "https://zambia.octocon.com/konOpasData.jsonp",
   "PEOPLE_DATA_URL": "https://zambia.octocon.com/konOpasData.jsonp",
-  "TIMEZONE": "America/Central",
+  "TIMEZONE": "America/Chicago",
   "INTERACTIVE": true,
   "NAVIGATION": {
     "PROGRAM": "Program",
@@ -20,8 +20,8 @@
     "PLACEHOLDER": "Select tags",
     "SEARCHABLE": false,
     "SEPARATE": [
-      { "PREFIX": "type", "PLACEHOLDER": "Select type", "SEARCHABLE": true },
-      { "PREFIX": "test", "PLACEHOLDER": "Select test", "SEARCHABLE": true }
+      { "PREFIX": "area", "PLACEHOLDER": "Select area", "SEARCHABLE": true },
+      { "PREFIX": "day", "PLACEHOLDER": "Select day", "SEARCHABLE": true }
     ],
     "FORMAT_AS_TAG": false
   },

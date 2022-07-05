@@ -1,5 +1,5 @@
 # all files that are not required in our build
-Dockerfile
+Dockerfile*
 .dockerignore
 .gitignore
 docs
