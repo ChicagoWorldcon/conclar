@@ -2,6 +2,7 @@
 FROM node:current-alpine
 WORKDIR /app/conclar-dev
 
+
 COPY package*.json ./
 RUN yarn install
 
