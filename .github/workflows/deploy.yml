@@ -60,3 +60,22 @@ jobs:
 
       - name: Ubuntu GitHub Actions environment variables List
         run: env
+
+      - name: Build the image
+        id: docker_build
+        uses: docker/build-push-action@v2
+        with:
+          context: ./
+          file: ./Dockerfile
+          builder: ${{ steps.buildx.outputs.name }}
+          build-args: |
+            NODE_ENV=development
+          push: false
+          load: true
+          # target: development
+          tags: "${{ env.CONTAINER_TEST_REPOSITORY }}"
+          cache-from: type=local,src=/tmp/.buildx-cache
+          cache-to: type=local,dest=/tmp/.buildx-cache-new
+
+      - name: Ubuntu GitHub Actions environment variables List
+        run: env
