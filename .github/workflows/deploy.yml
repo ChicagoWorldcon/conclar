@@ -77,5 +77,10 @@ jobs:
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache-new
 
+      - name: Publish the deployable image
+        run: |
+          docker tag $CONTAINER_TEST_REPOSITORY $CONTAINER_DEPLOY_REPOSITORY
+          docker push $CONTAINER_DEPLOY_REPOSITORY
+
       - name: Ubuntu GitHub Actions environment variables List
         run: env
