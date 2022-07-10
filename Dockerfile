@@ -1,10 +1,9 @@
 #This is the dockerfile to use when running on a non-local host
 FROM node:current-alpine
-WORKDIR /app/conclar-dev
+WORKDIR /app
 
-
-COPY package*.json ./
+COPY package.json ./
 RUN yarn install
 
 COPY . .
-#CMD ["yarn", "start"]
+CMD ["npm", "start"]

@@ -1,9 +1,6 @@
 version: "3.7"
 services:
   conclar:
-    # command: /opt/planorama/script/planorama_start.sh
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: imagename
     ports:
-      - "2382:3000"
+      - 2382:3000
