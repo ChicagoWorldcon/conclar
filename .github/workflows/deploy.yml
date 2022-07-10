@@ -35,5 +35,10 @@ jobs:
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v1
 
+      - name: Define the repository labels
+        run: |
+          echo "CONTAINER_TEST_REPOSITORY=${{ steps.login-ecr.outputs.registry }}/guide:ci-${{ github.sha }}" >> $GITHUB_ENV
+          echo "CONTAINER_DEPLOY_REPOSITORY=${{ steps.login-ecr.outputs.registry }}/guide:${{ steps.extract_name.outputs.branch }}" >> $GITHUB_ENV
+
       - name: Ubuntu GitHub Actions environment variables List
         run: env
