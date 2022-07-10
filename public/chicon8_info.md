@@ -15,7 +15,7 @@ All times listed are in CST unless otherwise noted.
 
 [Code of Conduct](https://chicon.org/home/for-members/code-of-conduct/)
 
-to be filled out more later
+To be filled out more later
 
 ---
 ## Tours - various spots
