@@ -35,7 +35,7 @@
     "SPRING_CONFIG": { "duration": 100 }
   },
   "ITEM_DESCRIPTION": {
-    "PURIFY_OPTIONS": {}
+    "PURIFY_OPTIONS": { "FORBID_ATTR": ["style"] }
   },
   "LINKS": [
     {"NAME": "signup",
@@ -92,7 +92,7 @@
     },
     "PERSON_HEADER": "Person: ",
     "BIO": {
-      "PURIFY_OPTIONS": {}
+      "PURIFY_OPTIONS": { "FORBID_ATTR": ["style"] }
     }
   },
   "USELESS_CHECKBOX": {
