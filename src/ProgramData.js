@@ -192,7 +192,7 @@ export class ProgramData {
   }
 
   static async fetchUrl(url) {
-    const res = await fetch(url, { cache: "reload" });
+    const res = await fetch(url, { cache: "reload", credentials: "omit" });
     const data = await res.text();
     return JsonParse.extractJson(data);
   }
