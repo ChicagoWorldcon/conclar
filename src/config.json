@@ -11,6 +11,7 @@
     "PEOPLE": "People",
     "MYSCHEDULE": "My Schedule",
     "INFO": "Information",
+    "SETTINGS": "Settings",
     "EXTRA": [{ "LABEL": "Chicon 8 Home", "URL": "https://chicon.org" }]
   },
   "LOCATIONS": {
@@ -51,9 +52,12 @@
      "TAG": ""
     }
   ],
+  "CONVENTION_TIME": {
+    "NOTICE": "Convention time for @timezone, shown in bold."
+  },
   "LOCAL_TIME": {
     "CHECKBOX_LABEL": "Show local time",
-    "NOTICE": "Local time shown in italics.",
+    "NOTICE": "Local time for @timezone, shown in italics.",
     "PREV_DAY": " previous day",
     "NEXT_DAY": " next day",
     "FAILURE": "Unable to convert to local time."
@@ -70,7 +74,8 @@
   "SHOW_PAST_ITEMS": {
     "SHOW_CHECKBOX": true,
     "CHECKBOX_LABEL": "Show past items",
-    "ADJUST_MINUTES": 10
+    "ADJUST_MINUTES": 10,
+    "FROM_START": false
   },
   "PEOPLE": {
     "MODERATORS": {

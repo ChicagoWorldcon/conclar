@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ReactSelect from "react-select";
 import { useStoreState, useStoreActions } from "easy-peasy";
 import ProgramList from "./ProgramList";
+import ShowPastItems from "./ShowPastItems";
 import configData from "../config.json";
 import { LocalTime } from "../utils/LocalTime";
 
@@ -9,20 +10,8 @@ const FilterableProgram = () => {
   const program = useStoreState((state) => state.program);
   const locations = useStoreState((state) => state.locations);
   const tags = useStoreState((state) => state.tags);
-  const offset = useStoreState((state) => state.offset);
 
-  const showLocalTime = useStoreState((state) => state.showLocalTime);
-  const setShowLocalTime = useStoreActions(
-    (actions) => actions.setShowLocalTime
-  );
-  const show12HourTime = useStoreState((state) => state.show12HourTime);
-  const setShow12HourTime = useStoreActions(
-    (actions) => actions.setShow12HourTime
-  );
   const showPastItems = useStoreState((state) => state.showPastItems);
-  const setShowPastItems = useStoreActions(
-    (actions) => actions.setShowPastItems
-  );
   const { expandAll, collapseAll } = useStoreActions((actions) => ({
     expandAll: actions.expandAll,
     collapseAll: actions.collapseAll,
@@ -37,63 +26,6 @@ const FilterableProgram = () => {
   const filtered = applyFilters(program);
   const total = filtered.length;
   const totalMessage = `Listing ${total} items`;
-
-  const localTimeCheckbox =
-    offset === null || offset === 0 ? (
-      ""
-    ) : (
-      <div className="local-time-checkbox switch-wrapper">
-        <input
-          id={LocalTime.localTimeClass}
-          name={LocalTime.localTimeClass}
-          className="switch"
-          type="checkbox"
-          checked={showLocalTime}
-          onChange={handleShowLocalTime}
-        />
-        <label htmlFor="show_local_time">
-          {configData.LOCAL_TIME.CHECKBOX_LABEL}
-        </label>
-      </div>
-    );
-
-  const show12HourTimeCheckbox = configData.TIME_FORMAT.SHOW_CHECKBOX ? (
-    <div className={LocalTime.twelveHourTimeClass + "-checkbox switch-wrapper"}>
-      <input
-        id={LocalTime.twelveHourTimeClass}
-        name={LocalTime.twelveHourTimeClass}
-        className="switch"
-        type="checkbox"
-        checked={show12HourTime}
-        onChange={handleShow12HourTime}
-      />
-      <label htmlFor={LocalTime.twelveHourTimeClass}>
-        {configData.TIME_FORMAT.CHECKBOX_LABEL}
-      </label>
-    </div>
-  ) : (
-    ""
-  );
-
-  //Nice to have a check here for whether it's during con right now.
-  const pastItemsCheckbox =
-    isDuringCon(program) && configData.SHOW_PAST_ITEMS.SHOW_CHECKBOX ? (
-      <div className="past-items-checkbox switch-wrapper">
-        <input
-          id={LocalTime.pastItemsClass}
-          name={LocalTime.pastItemsClass}
-          className="switch"
-          type="checkbox"
-          checked={showPastItems}
-          onChange={handleShowPastItems}
-        />
-        <label htmlFor={LocalTime.pastItemsClass}>
-          {configData.SHOW_PAST_ITEMS.CHECKBOX_LABEL}
-        </label>
-      </div>
-    ) : (
-      ""
-    );
 
   function applyFilters(program) {
     const term = search.trim().toLowerCase();
@@ -142,23 +74,10 @@ const FilterableProgram = () => {
         });
       }
     }
-    if (isDuringCon(program) && !showPastItems) {
-      // Filter by past item state.  Quick hack to treat this as a filter.
-      const now = LocalTime.dateToConTime(new Date());
-      //console.log("Showing items after", now.date, now.time, "(adjusted con time).");
-      filtered = filtered.filter((item) => {
-        // eslint-disable-next-line
-        return (
-          now.date < item.date ||
-          (now.date === item.date && now.time <= item.time)
-        );
-      });
+    if (LocalTime.isDuringCon(program) && !showPastItems) {
+      filtered = LocalTime.filterPastItems(filtered);
     }
     return filtered;
-  }
-
-  function isDuringCon(program) {
-    return program && program.length ? LocalTime.inConTime(program) : false;
   }
 
   function handleSearch(event) {
@@ -173,18 +92,6 @@ const FilterableProgram = () => {
     let selections = { ...selTags };
     selections[tag] = value;
     setSelTags(selections);
-  }
-
-  function handleShowLocalTime(event) {
-    setShowLocalTime(event.target.checked);
-  }
-
-  function handleShow12HourTime(event) {
-    setShow12HourTime(event.target.checked);
-  }
-
-  function handleShowPastItems(event) {
-    setShowPastItems(event.target.checked);
   }
 
   // TODO: Probably should move the tags filter to its own component.
@@ -219,7 +126,7 @@ const FilterableProgram = () => {
   return (
     <div>
       <div className="filter">
-	<div className="search-filters">
+        <div className="search-filters">
           <div className="filter-locations">
             <ReactSelect
               placeholder="Select locations"
@@ -239,23 +146,21 @@ const FilterableProgram = () => {
               onChange={handleSearch}
             />
           </div>
-	</div>
-	<div className="result-filters">
-	  <div className="stack">
+        </div>
+        <div className="result-filters">
+          <div className="stack">
             <div className="filter-total">{totalMessage}</div>
             <div className="filter-expand">
               <button disabled={allExpanded} onClick={expandAll}>
-		{configData.EXPAND.EXPAND_ALL_LABEL}
+                {configData.EXPAND.EXPAND_ALL_LABEL}
               </button>
               <button disabled={noneExpanded} onClick={collapseAll}>
-		{configData.EXPAND.COLLAPSE_ALL_LABEL}
+                {configData.EXPAND.COLLAPSE_ALL_LABEL}
               </button>
             </div>
-	  </div>
+          </div>
           <div className="filter-options">
-            {localTimeCheckbox}
-            {show12HourTimeCheckbox}
-            {pastItemsCheckbox}
+            <ShowPastItems />
           </div>
         </div>
       </div>

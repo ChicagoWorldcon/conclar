@@ -2,25 +2,72 @@ import configData from "./config.json";
 import { JsonParse } from "./utils/JsonParse";
 import { Format } from "./utils/Format";
 import { Temporal } from "@js-temporal/polyfill";
+import { LocalTime } from "./utils/LocalTime";
 
-// Creating class for processing program and people data.
-// At present this is just a class for grouping static functions, but it may evolve.
+// 
+
+/**
+ * Class for processing program and people data.
+ * At present this is just a class for grouping static functions, but it may evolve.
+ */
 
 export class ProgramData {
-  static processProgramData(program) {
-    program.map((item) => {
-      item.dateAndTime = Temporal.ZonedDateTime.from(
+  static regex = /(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})([+-]\d{2}):(\d{2})/;
+
+  /**
+   * Process a program item and return the date and time as a ZonedDateTime.
+   *
+   * @param {object} item
+   * @returns {Temporal.ZonedDateTime}
+   */
+  static processDateAndTime(item) {
+    // If item doesn't have datetime property, construct from date and time properties.
+    if (!item.hasOwnProperty("datetime")) {
+      return Temporal.ZonedDateTime.from(
         item.date + "T" + item.time + "[" + configData.TIMEZONE + "]"
       );
+    }
+
+    // Apply regular expression to check if date includes timezone.
+    const matches = item.datetime.match(this.regex);
+
+    // If time offset not included in datetime property, add convention timezone.
+    if (matches === null) {
+      return Temporal.ZonedDateTime.from(
+        item.datetime + "[" + configData.TIMEZONE + "]"
+      );
+    }
+
+    // Datetime with timezone offset.
+    return Temporal.ZonedDateTime.from(matches[1] + "[" + matches[2] + "]");
+  }
+
+  /**
+   * Read program and convert dates to ZonedDateTime, then sort by date.
+   *
+   * @param {array} program
+   * @returns {array}
+   */
+  static processProgramData(program) {
+    const utcTimezone = Temporal.TimeZone.from("UTC");
+    program.map((item) => {
+      const startTime = this.processDateAndTime(item);
+      item.dateAndTime = startTime.withTimeZone(utcTimezone);
       return item;
     });
     program.sort((a, b) => {
       return Temporal.ZonedDateTime.compare(a.dateAndTime, b.dateAndTime);
     });
+    //console.log(program);
     return program;
   }
 
-  // Process
+  /**
+   * Loop through people and normalize properties.
+   *
+   * @param {array} people
+   * @returns {array}
+   */
   static processPeopleData(people) {
     for (let person of people) {
       // If SortName not in file, create from name. If name is array, put last element first for sorting.
@@ -43,7 +90,12 @@ export class ProgramData {
     return people;
   }
 
-  // After loading program and people, add additional person data to program items.
+  /**
+   * After loading program and people, add additional person data to program items.
+   *
+   * @param {array} program
+   * @param {array} people
+   */
   static addProgramParticipantDetails(program, people) {
     // Add extra participant info to program participants.
     for (let item of program) {
@@ -69,7 +121,12 @@ export class ProgramData {
     }
   }
 
-  // Extract locations from program.
+  /**
+   * Extract locations from program.
+   *
+   * @param {array} program
+   * @returns {array}
+   */
   static processLocations(program) {
     const locations = [];
     for (const item of program) {
@@ -92,8 +149,13 @@ export class ProgramData {
     return locations;
   }
 
+  /**
+   * Grenadine does not have a mode to put types ("format") into the tags like Zambia does.
+   *
+   * @param {array} program
+   * @returns {array}
+   */
   static reformatAsTag(program) {
-    //Grenadine does not have a mode to put types ("format") into the tags like Zambia does.
     for (let item of program) {
       if (item.format && item.hasOwnProperty("tags"))
         item.tags.push("type:" + item.format);
@@ -101,22 +163,33 @@ export class ProgramData {
     return program;
   }
 
+  /**
+   * TAG should include an appropriate prefix if using them.
+   *
+   * @param {array} program
+   * @returns {array}
+   */
   static tagLinks(program) {
     const linksToTag = configData.LINKS.filter((link) => link.TAG.length > 0);
-    //TAG should include an appropriate prefix if using them.
-    for (let linkToTag of linksToTag) {
-      for (let item of program) {
+    for (const linkToTag of linksToTag) {
+      for (const item of program) {
         if (
           item.hasOwnProperty("links") &&
           item.links.hasOwnProperty(linkToTag.NAME)
-        )
+        ) {
           item.tags.push(linkToTag.TAG);
+        }
       }
     }
     return program;
   }
 
-  // Extract tags from program.
+  /**
+   * Extract tags from program.
+   *
+   * @param {array} program
+   * @returns {array}
+   */
   static processTags(program) {
     //Pre-parse grenadine Format as konopas Type.
 
@@ -169,7 +242,13 @@ export class ProgramData {
     return tags;
   }
 
-  // Process data from program and people.
+  /**
+   * Process data from program and people.
+   *
+   * @param {array} progData
+   * @param {array} pplData
+   * @returns {object}
+   */
   static processData(progData, pplData) {
     let program = this.processProgramData(progData);
     if (configData.TAGS.FORMAT_AS_TAG) program = this.reformatAsTag(program);
@@ -182,6 +261,7 @@ export class ProgramData {
     this.addProgramParticipantDetails(program, people);
     const locations = this.processLocations(program);
     const tags = this.processTags(program);
+    LocalTime.checkTimezonesDiffer(program);
 
     return {
       program: program,
@@ -191,12 +271,23 @@ export class ProgramData {
     };
   }
 
+  /**
+   * Fetch JSON from URL.
+   *
+   * @param {string} url
+   * @returns {object}
+   */
   static async fetchUrl(url) {
     const res = await fetch(url, { cache: "reload", credentials: "omit" });
     const data = await res.text();
     return JsonParse.extractJson(data);
   }
 
+  /**
+   * Work out whether to read one or two files, and read the data.
+   * 
+   * @returns {array}
+   */
   static async fetchData() {
     try {
       // If only one data source, we can use a single fetch.
