@@ -278,7 +278,7 @@ export class ProgramData {
    * @returns {object}
    */
   static async fetchUrl(url) {
-    const res = await fetch(url, { cache: "reload", credentials: "omit" });
+    const res = await fetch(url, { cache: "reload", credentials: "omit", headers: { "Origin": "http://example.com"}});
     const data = await res.text();
     return JsonParse.extractJson(data);
   }
