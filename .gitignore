@@ -7,6 +7,7 @@
 
 # testing
 /coverage
+/public/Cap42*
 
 # production
 /build
