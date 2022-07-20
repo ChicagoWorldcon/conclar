@@ -154,6 +154,7 @@ var people = [
 ];
 ```
 
+
 ### New Style - Not KonOpas Compatible
 
 ```javascript
