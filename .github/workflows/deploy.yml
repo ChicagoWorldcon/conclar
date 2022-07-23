@@ -74,7 +74,7 @@ jobs:
           file: ./Dockerfile
           builder: ${{ steps.buildx.outputs.name }}
           build-args: |
-            NODE_ENV=development
+            NODE_ENV=${{ steps.extract_name.outputs.branch }}
           push: false
           load: true
           # target: development
