@@ -4,7 +4,7 @@ services:
     # command: /opt/planorama/script/planorama_start.sh
     build:
       context: .
-      dockerfile: Dockerfile-local
+      dockerfile: Dockerfile
     #volumes:
     #  - .:/app
     ports:
