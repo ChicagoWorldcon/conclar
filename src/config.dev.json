@@ -1,0 +1,152 @@
+{
+  "BASE_PATH": "/",
+  "APP_ID": "W2022",
+  "APP_TITLE": "Chicon 8 Program Guide",
+  "PROGRAM_DATA_URL": "https://planorama.dev.chicon.org/conclar/schedule",
+  "PEOPLE_DATA_URL": "https://planorama.dev.chicon.org/conclar/participants",
+  "FETCH_OPTIONS": {
+    "cache": "reload",
+    "credentials": "omit",
+    "headers": {
+      "Origin": "http://example.com"
+    }
+  },
+  "TIMEZONE": "America/Chicago",
+  "INTERACTIVE": true,
+  "NAVIGATION": {
+    "PROGRAM": "Program",
+    "PEOPLE": "People",
+    "MYSCHEDULE": "My Schedule",
+    "INFO": "Information",
+    "SETTINGS": "Settings",
+    "EXTRA": [{ "LABEL": "Chicon 8 Home", "URL": "https://chicon.org" }]
+  },
+  "LOCATIONS": {
+    "SEARCHABLE": false
+  },
+  "TAGS": {
+    "PLACEHOLDER": "Select tags",
+    "SEARCHABLE": false,
+    "SEPARATE": [
+      { "PREFIX": "area", "PLACEHOLDER": "Select area", "SEARCHABLE": true },
+      { "PREFIX": "day", "PLACEHOLDER": "Select day", "SEARCHABLE": true }
+    ],
+    "FORMAT_AS_TAG": false
+  },
+  "PERMALINK": {
+    "SHOW_PERMALINK": false,
+    "PERMALINK_TITLE": "Permalink"
+  },
+  "EXPAND": {
+    "EXPAND_ALL_LABEL": "Expand All",
+    "COLLAPSE_ALL_LABEL": "Collapse All",
+    "SPRING_CONFIG": { "duration": 100 }
+  },
+  "ITEM_DESCRIPTION": {
+    "PURIFY_OPTIONS": { "FORBID_ATTR": ["style"] }
+  },
+  "LINKS": [
+    {"NAME": "signup",
+     "TEXT": "Click to sign up",
+     "TAG": ""
+    },
+    {"NAME": "meeting",
+     "TEXT": "Click to view stream",
+     "TAG": "type:Streaming"
+    },
+    {"NAME": "recording",
+     "TEXT": "Click to view recording",
+     "TAG": ""
+    }
+  ],
+  "CONVENTION_TIME": {
+    "NOTICE": "Convention time for @timezone, shown in bold."
+  },
+  "LOCAL_TIME": {
+    "CHECKBOX_LABEL": "Show local time",
+    "NOTICE": "Local time for @timezone, shown in italics.",
+    "PREV_DAY": " previous day",
+    "NEXT_DAY": " next day",
+    "FAILURE": "Unable to convert to local time."
+  },
+  "TIME_FORMAT": {
+    "DEFAULT_12HR": true,
+    "SHOW_CHECKBOX": true,
+    "CHECKBOX_LABEL": "Show 12 hour time"
+  },
+  "DURATION": {
+    "SHOW_DURATION": true,
+    "DURATION_LABEL": "Duration: @mins mins"
+  },
+  "SHOW_PAST_ITEMS": {
+    "SHOW_CHECKBOX": true,
+    "CHECKBOX_LABEL": "Show past items",
+    "ADJUST_MINUTES": 10,
+    "FROM_START": false
+  },
+  "PEOPLE": {
+    "MODERATORS": {
+      "MODERATOR_LABEL": "(moderator)"
+    },
+    "THUMBNAILS": {
+      "SHOW_THUMBNAILS": false,
+      "SHOW_CHECKBOX": false,
+      "CHECKBOX_LABEL": "Show thumbnails",
+      "DEFAULT_IMAGE": "head.svg"
+    },
+    "SORT": {
+      "SHOW_CHECKBOX": true,
+      "CHECKBOX_LABEL": "Sort by full name"
+    },
+    "SEARCH": {
+      "SHOW_SEARCH": true,
+      "SEARCH_LABEL": "Search people"
+    },
+    "PERSON_HEADER": "Person: ",
+    "BIO": {
+      "PURIFY_OPTIONS": { "FORBID_ATTR": ["style"] }
+    }
+  },
+  "USELESS_CHECKBOX": {
+    "CHECKBOX_LABEL": "Useless checkbox"
+  },
+  "INFORMATION": {
+    "MARKDOWN_URL": "chicon8_info.md",
+    "LOADING_MESSAGE": "Loading..."
+  },
+  "SETTINGS": {
+    "TITLE": {
+      "LABEL": "Settings"
+    },
+    "TIME_FORMAT": {
+      "LABEL": "Time format",
+      "T12_HOUR_LABEL": "12 hour",
+      "T24_HOUR_LABEL": "24 hour"
+    },
+    "SHOW_LOCAL_TIME": {
+      "LABEL": "Show local time",
+      "NEVER_LABEL": "Never display",
+      "DIFFERS_LABEL": "Display if differs from convention time",
+      "ALWAYS_LABEL": "Always show"
+    },
+    "SELECT_TIMEZONE": {
+      "LABEL": "Select timezone",
+      "BROWSER_DEFAULT_LABEL": "Use browser default timezone:",
+      "SELECT_LABEL": "Select timezone to use"
+    }
+  },
+  "FOOTER": {
+    "SITE_NOTE_MARKDOWN": "",
+    "CONCLAR_NOTE_MARKDOWN": "Guide powered by [ConClár](https://github.com/lostcarpark/conclar)"
+  },
+  "TIMER": {
+    "FETCH_INTERVAL_MINS": 30,
+    "TIMER_TICK_SECS": 15
+  },
+  "DEBUG_MODE": {
+    "ENABLE": false,
+    "ONLINE_LABEL": "Currently Online",
+    "OFFLINE_LABEL": "Currently Offline",
+    "FETCH_BUTTON_LABEL": "Fetch Data Now"
+  }
+}
