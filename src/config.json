@@ -28,10 +28,14 @@
     "PLACEHOLDER": "Select tags",
     "SEARCHABLE": false,
     "SEPARATE": [
-      { "PREFIX": "area", "PLACEHOLDER": "Select area", "SEARCHABLE": true },
-      { "PREFIX": "day", "PLACEHOLDER": "Select day", "SEARCHABLE": true }
+      { "PREFIX": "Day", "PLACEHOLDER": "Select day", "SEARCHABLE": true }
     ],
-    "FORMAT_AS_TAG": false
+    "FORMAT_AS_TAG": false,
+    "DAY_TAG": {
+      "GENERATE": true,
+      "PLACEHOLDER": "Select days",
+      "SEARCHABLE": true
+    }
   },
   "PERMALINK": {
     "SHOW_PERMALINK": false,

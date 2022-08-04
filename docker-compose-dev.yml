@@ -1,6 +1,6 @@
 version: "3.7"
 services:
   conclar:
-    image: #imagename
+    image: #put in imagename
     ports:
       - 2382:3000

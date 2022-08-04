@@ -30,6 +30,7 @@ const Person = () => {
     }
     return false;
   });
+  const personlinks = person.links.facebook ? <a href={person.links.facebook}>{person.links.facebook}</a> : "";
   return (
     <div className="person">
       <h2 className="person-name">
@@ -41,6 +42,7 @@ const Person = () => {
         className="person-bio"
         dangerouslySetInnerHTML={{ __html: safeBio }}
       />
+      <div className="person-links">{personlinks}</div>
       <ProgramList program={filteredProgram} />
     </div>
   );
