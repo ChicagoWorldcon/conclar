@@ -28,7 +28,7 @@
     "PLACEHOLDER": "Select tags",
     "SEARCHABLE": false,
     "SEPARATE": [
-      { "PREFIX": "Day", "PLACEHOLDER": "Select day", "SEARCHABLE": true }
+      { "PREFIX": "type", "PLACEHOLDER": "Select type", "SEARCHABLE": true }
     ],
     "FORMAT_AS_TAG": false,
     "DAY_TAG": {
