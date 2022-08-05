@@ -21,10 +21,10 @@
 :root {
   --main-bg: #fff;
   --main-fg: #000;
-  --navigation-button-bg: #ddd;
+  --navigation-button-bg: #41b6e6;
   --navigation-button-fg: #0d172a;
   --navigation-button-border: #e2e8f0;
-  --navigation-button-current-bg: #5b6473; /*#525e73; #343c4b;*/
+  --navigation-button-current-bg: #00558c; /*#525e73; #343c4b;*/
   --navigation-button-current-fg: #fff;
   --navigation-button-hover-bg: #1e293b;
   --navigation-button-hover-fg: #fff;

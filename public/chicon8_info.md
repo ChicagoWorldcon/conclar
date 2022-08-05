@@ -6,7 +6,7 @@ Welcome to the 80th World Science Fiction Convention - Chicon 8! We’re excited
 
 Please note that panels you check for the "My Schedule" option is not sharable amoung different devices. So, your phone and your ipad could have different lists.
 
-All times listed are in CST unless otherwise noted.
+All times listed below are in CST unless otherwise noted.
 
 ---
 # Links
@@ -65,5 +65,5 @@ Convention Tours will start on the Skybridge near the hotel front desks - look f
 ---
 # About Conclár
 
-Conclár is a browser based program guide used by [Chicon 8](https://chicon.org).
+Conclár is an open source browser based program guide used by [Chicon 8](https://chicon.org).
 
