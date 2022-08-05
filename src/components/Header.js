@@ -4,7 +4,7 @@ const Header = ({ title }) => {
   document.title = title;
   return (
     <header>
-      <img src="/logo-web-small.png" alt="Chicon 8 Logo"></img>
+      <img src="/Header_200_2x.png" alt="Chicon 8 Logo"></img><br />
       <h1>{title}</h1>
     </header>
   );

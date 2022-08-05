@@ -69,8 +69,8 @@
   "LOCAL_TIME": {
     "CHECKBOX_LABEL": "Show local time",
     "NOTICE": "Local time for @timezone, shown in italics.",
-    "PREV_DAY": " previous day",
-    "NEXT_DAY": " next day",
+    "PREV_DAY": "<br />previous day",
+    "NEXT_DAY": "<br />next day",
     "FAILURE": "Unable to convert to local time."
   },
   "TIME_FORMAT": {
@@ -99,7 +99,7 @@
       "DEFAULT_IMAGE": "head.svg"
     },
     "SORT": {
-      "SHOW_CHECKBOX": true,
+      "SHOW_CHECKBOX": false,
       "CHECKBOX_LABEL": "Sort by full name"
     },
     "SEARCH": {
