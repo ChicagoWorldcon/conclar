@@ -22,11 +22,11 @@
     "EXTRA": [{ "LABEL": "Chicon 8 Home", "URL": "https://chicon.org" }]
   },
   "LOCATIONS": {
-    "SEARCHABLE": false
+    "SEARCHABLE": true
   },
   "TAGS": {
     "PLACEHOLDER": "Select tags",
-    "SEARCHABLE": false,
+    "SEARCHABLE": true,
     "SEPARATE": [
       { "PREFIX": "type", "PLACEHOLDER": "Select format", "SEARCHABLE": true }
     ],
@@ -38,7 +38,7 @@
     }
   },
   "PERMALINK": {
-    "SHOW_PERMALINK": false,
+    "SHOW_PERMALINK": true,
     "PERMALINK_TITLE": "Permalink"
   },
   "EXPAND": {

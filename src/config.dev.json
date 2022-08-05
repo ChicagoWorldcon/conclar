@@ -22,19 +22,23 @@
     "EXTRA": [{ "LABEL": "Chicon 8 Home", "URL": "https://chicon.org" }]
   },
   "LOCATIONS": {
-    "SEARCHABLE": false
+    "SEARCHABLE": true
   },
   "TAGS": {
     "PLACEHOLDER": "Select tags",
-    "SEARCHABLE": false,
+    "SEARCHABLE": true,
     "SEPARATE": [
-      { "PREFIX": "area", "PLACEHOLDER": "Select area", "SEARCHABLE": true },
-      { "PREFIX": "day", "PLACEHOLDER": "Select day", "SEARCHABLE": true }
+      { "PREFIX": "type", "PLACEHOLDER": "Select format", "SEARCHABLE": true }
     ],
-    "FORMAT_AS_TAG": false
+    "FORMAT_AS_TAG": true,
+    "DAY_TAG": {
+      "GENERATE": true,
+      "PLACEHOLDER": "Select days",
+      "SEARCHABLE": true
+    }
   },
   "PERMALINK": {
-    "SHOW_PERMALINK": false,
+    "SHOW_PERMALINK": true,
     "PERMALINK_TITLE": "Permalink"
   },
   "EXPAND": {
@@ -92,10 +96,10 @@
       "SHOW_THUMBNAILS": false,
       "SHOW_CHECKBOX": false,
       "CHECKBOX_LABEL": "Show thumbnails",
-      "DEFAULT_IMAGE": "head.svg"
+      "DEFAULT_IMAGE": ""
     },
     "SORT": {
-      "SHOW_CHECKBOX": true,
+      "SHOW_CHECKBOX": false,
       "CHECKBOX_LABEL": "Sort by full name"
     },
     "SEARCH": {
