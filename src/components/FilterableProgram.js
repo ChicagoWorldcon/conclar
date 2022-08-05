@@ -132,6 +132,7 @@ const FilterableProgram = () => {
           </div>
           {tagFilters}
           <div className="filter-search">
+            Search title, desc, or people
             <input
               type="text"
               placeholder="Enter search text"
