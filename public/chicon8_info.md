@@ -63,7 +63,7 @@ Art Show Tours will start near the front door of the Art Show - look for the sig
 Convention Tours will start on the Skybridge near the hotel front desks - look for the signs.  
 
 ---
-# About Conclár
+# About ConClár
 
-Conclár is an open source browser based program guide used by [Chicon 8](https://chicon.org).
+ConClár is an open source browser based program guide used by [Chicon 8](https://chicon.org).
 
