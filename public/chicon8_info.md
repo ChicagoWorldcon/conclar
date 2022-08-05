@@ -45,18 +45,36 @@ Thursday: noon–7 p.m.
 Friday/Saturday/Sunday: 10 a.m.–7 p.m.  
 Monday: 10 a.m.–3 p.m.  
 
-### Information Table (Two locations)
+### Information Table (Two locations)*
 **East Tower & West Tower Ballroom (Gold) Level**  
 Wednesday: noon–7 p.m.  
 Thursday–Sunday: 9 a.m.–7 p.m.  
 Monday: 9 a.m.–2:30 p.m.  
+*West Tower will have limited staffing based on volunteer availability*  
+
+### Registration
+**Grand Suites, East Tower Ballroom (Gold) Level**  
+Wednesday: 9 a.m.–7 p.m.*  
+Thursday–Sunday: 9 a.m.–7 p.m.  
+Monday: 9 a.m.–1 p.m.  
+*pre-registered members only*  
 
 ### Teen Lounge
 **Soldier Field - West Tower Concourse (Bronze) Level**  
 Thursday–Sunday: 9 a.m.–11 p.m.  
 Monday: 9 a.m.–noon  
 
+### Volunteer Desk
+**East Tower Ballroom (Gold) Level & East Tower Riverside Exhibit (Purple) Level**  
+Wednesday: 9 a.m.–7 p.m.  
 
+**East Tower Ballroom (Gold) Level & West Tower Ballroom (Gold) Level**  
+Thursday: 9 a.m.–7 p.m.  
+Friday/Saturday: 9 a.m.–8 p.m.  
+Sunday: 9 a.m.–7 p.m.  
+Monday: 9 a.m.–1 p.m.; 9 a.m.–7 p.m.  
+
+---
 ## Tours - various spots
 
 Art Show Tours will start near the front door of the Art Show - look for the signs.  
