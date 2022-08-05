@@ -30,7 +30,7 @@
     "SEPARATE": [
       { "PREFIX": "type", "PLACEHOLDER": "Select type", "SEARCHABLE": true }
     ],
-    "FORMAT_AS_TAG": false,
+    "FORMAT_AS_TAG": true,
     "DAY_TAG": {
       "GENERATE": true,
       "PLACEHOLDER": "Select days",
@@ -96,7 +96,7 @@
       "SHOW_THUMBNAILS": false,
       "SHOW_CHECKBOX": false,
       "CHECKBOX_LABEL": "Show thumbnails",
-      "DEFAULT_IMAGE": "head.svg"
+      "DEFAULT_IMAGE": ""
     },
     "SORT": {
       "SHOW_CHECKBOX": false,
