@@ -24,6 +24,11 @@
   "LOCATIONS": {
     "SEARCHABLE": true
   },
+  "PROGRAM": {
+    "SEARCH": {
+      "SEARCH_LABEL": "Search title, desc, or people"
+    }
+  },
   "TAGS": {
     "PLACEHOLDER": "Select tags",
     "SEARCHABLE": true,
