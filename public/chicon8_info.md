@@ -85,8 +85,5 @@ Art Show Docent Tours will start in the Art Show room.
 Stroll With the Stars will start TBD.  
 
 
----
-# About ConClár
 
-ConClár is an open source browser based program guide used by [Chicon 8](https://chicon.org).
 
