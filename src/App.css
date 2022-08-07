@@ -574,6 +574,16 @@ input.switch:checked ~ label:after {
   max-width: 60ch;
 }
 
+.person .person-links a {
+  color: var(--participant-link-fg);
+}
+
+.person .person-links a:active,
+.person .person-links a:hover,
+.person .person-links a:visited {
+  color: var(--participant-link-visited-fg);
+}
+
 .person .person-bio {
   max-width: 60ch;
 }
