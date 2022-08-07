@@ -16,7 +16,7 @@ import {
 
 
 const PersonLinks = ({ person }) => {
-  const regex = /^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w.-]+)+[\w\-._~:/?#[\]@!$&'()*+,;=.]+$/;
+  const regex = /^(?:http(s)?:\/\/)[\w.-]+(?:\.[\w.-]+)+[\w\-._~:/?#[\]@!$&'()*+,;=.]+$/;
   /**
    * Take a link type and return an appropriate Icon.
    * @param {string} type 
