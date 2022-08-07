@@ -145,7 +145,7 @@
     }
   },
   "FOOTER": {
-    "SITE_NOTE_MARKDOWN": "This is a test",
+    "SITE_NOTE_MARKDOWN": "",
     "CONCLAR_NOTE_MARKDOWN": "Guide powered by [ConClár](https://github.com/lostcarpark/conclar)"
   },
   "TIMER": {
