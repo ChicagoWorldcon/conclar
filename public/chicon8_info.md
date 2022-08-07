@@ -2,9 +2,9 @@
 ---
 # Information
 
-Welcome to the 80th World Science Fiction Convention - Chicon 8! We’re excited to participate in the con both in-person in the hotel and online around the world! If you are only attending Chicon 8 virtually, filter using the "Virtual" tag to see what program items will be accessible to you.
+Welcome to the 80th World Science Fiction Convention - Chicon 8! We’re excited to participate in the con both in-person in the hotel and online around the world! If you are only attending Chicon 8 virtually, filter using the "Virtual" or "Hybrid" tag to see what program items will be accessible to you.
 
-Please note that panels you check for the "My Schedule" option is not sharable amoung different devices. So, your phone and your ipad could have different lists.
+Please note that panels you check for the "My Schedule" option are not sharable amoung different devices. So, your phone and your ipad will display different lists.
 
 All times listed below are in CST unless otherwise noted.
 
@@ -77,7 +77,6 @@ Monday: 9 a.m.–1 p.m.; 9 a.m.–7 p.m.
 ---
 ## Tours - various spots
 
-Art Show Tours will start near the front door of the Art Show - look for the signs.  
 Convention Tours will start on the Skybridge near the hotel front desks - look for the signs.  
 
 ---

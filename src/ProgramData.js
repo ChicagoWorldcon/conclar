@@ -118,9 +118,9 @@ export class ProgramData {
           );
           //Moderator check before nuking the item person data.
           if (
-            item.people[index].name.indexOf("(moderator)") > 0 ||
+            item.people[index].name.includes("(moderator)") ||
             (item.people[index].hasOwnProperty("role") &&
-              ( (item.people[index].role === "Moderator") || (item.people[index].role === "moderator")) )
+              item.people[index].role.toLowerCase === "moderator")
           )
             item.moderator = item.people[index].id;
           if (fullPerson) {
@@ -230,7 +230,7 @@ export class ProgramData {
       // Check item has at least one tag.
       if (item.tags && Array.isArray(item.tags) && item.tags.length) {
         for (const tag of item.tags) {
-          let matches = tag.match(/^(.+):(.+)/);
+          const matches = tag.match(/^(.+):(.+)/);
           if (matches && matches.length === 3) {
             const prefix = matches[1];
             const label = matches[2];
@@ -266,7 +266,7 @@ export class ProgramData {
       tags.days.sort((a, b) => a.value.localeCompare(b.value));
     }
 
-    console.log(tags);
+    //console.log(tags);
     return tags;
   }
 
@@ -278,6 +278,7 @@ export class ProgramData {
    * @returns {object}
    */
   static processData(progData, pplData) {
+    console.log(progData);
     let program = this.processProgramData(progData);
     if (configData.TAGS.FORMAT_AS_TAG) program = this.reformatAsTag(program);
     if (
