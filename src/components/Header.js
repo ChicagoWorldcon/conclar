@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import configData from "../config.json";
 
-const showBreak = {configData.HEADER.LINEFEED_AFTER_URL} ? <br /> : "";
+const showBreak = configData.HEADER.LINEFEED_AFTER_URL ? <br /> : "";
 
 const Header = ({ title }) => {
   document.title = title;
