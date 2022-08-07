@@ -32,14 +32,16 @@
   "TAGS": {
     "PLACEHOLDER": "Select tags",
     "SEARCHABLE": true,
+    "HIDE": false,
     "SEPARATE": [
-      { "PREFIX": "type", "PLACEHOLDER": "Select format", "SEARCHABLE": true }
+      { "PREFIX": "type", "PLACEHOLDER": "Select format", "SEARCHABLE": true, "HIDE": false }
     ],
     "FORMAT_AS_TAG": true,
     "DAY_TAG": {
       "GENERATE": true,
       "PLACEHOLDER": "Select days",
-      "SEARCHABLE": true
+      "SEARCHABLE": true,
+      "HIDE": false
     }
   },
   "PERMALINK": {

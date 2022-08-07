@@ -572,6 +572,7 @@ input.switch:checked ~ label:after {
 
 .person .person-links {
   max-width: 60ch;
+  margin-top: 0.5rem;
 }
 
 .person .person-links a {
