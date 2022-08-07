@@ -4,15 +4,18 @@
 
 Welcome to the 80th World Science Fiction Convention - Chicon 8! We’re excited to participate in the con both in-person in the hotel and online around the world! If you are only attending Chicon 8 virtually, filter using the "Virtual" or "Hybrid" tag to see what program items will be accessible to you.
 
-Please note that panels you check for the "My Schedule" option are not sharable amoung different devices. So, your phone and your ipad will display different lists.
+Please note that panels you check for the "My Schedule" option are not sharable amoungst different devices. So, your phone and your ipad will display different lists.
 
 All times listed below are in CST unless otherwise noted.
 
 ---
 # Links
 
-[Code of Conduct](https://chicon.org/home/for-members/code-of-conduct/)
+[Chicon 8 Policies](https://chicon.org/home/policies/)  
+[Code of Conduct](https://chicon.org/home/for-members/code-of-conduct/)  
+[Frequently Asked Questions](https://chicon.org/home/about-worldcon/chicon-8-frequently-asked-questions-august-2020/)  
 
+[At A Glance](https://chicon.org/at-a-glance)
 
 
 ---
@@ -78,6 +81,9 @@ Monday: 9 a.m.–1 p.m.; 9 a.m.–7 p.m.
 ## Tours - various spots
 
 Convention Tours will start on the Skybridge near the hotel front desks - look for the signs.  
+Art Show Docent Tours will start in the Art Show room.  
+Stroll With the Stars will start TBD.  
+
 
 ---
 # About ConClár
