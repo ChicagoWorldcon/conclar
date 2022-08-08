@@ -605,13 +605,13 @@ input.switch:checked ~ label:after {
   max-width: 60ch;
 }
 
-.info h2 {
+/* .info h2 {
   margin-bottom: 0rem;
 }
 
 .info p {
   margin: 0rem;
-}
+} */
 
 /*
  * 7. Settings page.
