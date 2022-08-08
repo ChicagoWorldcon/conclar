@@ -26,7 +26,7 @@ const PersonLinks = ({ person }) => {
     switch (type) {
       case "twitter":
         return <FaTwitter />;
-      case "fa":
+      case "fb":
       case "facebook":
         return <FaFacebook />;
       case "instagram":
