@@ -28,52 +28,52 @@ Thursday: noon–7 p.m.
 Friday: 10 a.m.–7:30 p.m.  
 Saturday/Sunday: 10 a.m.–6 p.m.  
 Monday: 10 a.m.–2 p.m.  
-  
-  
+&nbsp;  
+
 ## Con Suite
 **New Orleans/Acapulco - West Tower Ballroom (Gold) Level**  
 Thursday: 1 p.m.–midnight  
 Friday/Saturday/Sunday: 8 a.m.–midnight*  
 Monday: 8 a.m.–noon  
 *&ast;may stay open later if enough demand*  
-  
-  
+&nbsp;  
+
 ## Dealers Room
 **East Tower Exhibit (Purple) Level**  
 Thursday: noon–6 p.m.  
 Friday/Saturday: 10 a.m.–6:30 p.m.  
 Sunday: 10 a.m.–6 p.m.  
 Monday: 10 a.m.–3 p.m.  
-
+&nbsp;  
 
 ## Exhibit Hall
 **East Tower Exhibit (Purple) Level**  
 Thursday: noon–7 p.m.  
 Friday/Saturday/Sunday: 10 a.m.–7 p.m.  
 Monday: 10 a.m.–3 p.m.  
-
+&nbsp;  
 
 ## Information Table (Two locations)*
 **East Tower & West Tower Ballroom (Gold) Level**  
 Wednesday: noon–7 p.m.  
 Thursday–Sunday: 9 a.m.–7 p.m.  
 Monday: 9 a.m.–2:30 p.m.  
-* \*West Tower may have limited hours based on volunteer availability*  
-
+*&ast;West Tower may have limited hours based on volunteer availability*  
+&nbsp;  
 
 ## Registration
 **Grand Suites, East Tower Ballroom (Gold) Level**  
 Wednesday: 9 a.m.–7 p.m.*  
 Thursday–Sunday: 9 a.m.–7 p.m.  
 Monday: 9 a.m.–1 p.m.  
-* \*pre-registered members only*  
-
+*&ast;pre-registered members only*  
+&nbsp;  
 
 ## Teen Lounge
 **Soldier Field - West Tower Concourse (Bronze) Level**  
 Thursday–Sunday: 9 a.m.–11 p.m.  
 Monday: 9 a.m.–noon  
-
+&nbsp;  
 
 ## Volunteer Desk
 **East Tower Ballroom (Gold) Level & East Tower Riverside Exhibit (Purple) Level**  
@@ -84,7 +84,7 @@ Thursday: 9 a.m.–7 p.m.
 Friday/Saturday: 9 a.m.–8 p.m.  
 Sunday: 9 a.m.–7 p.m.  
 Monday: 9 a.m.–1 p.m.; 9 a.m.–7 p.m.  
-
+&nbsp;  
 
 ---
 # Other Info
