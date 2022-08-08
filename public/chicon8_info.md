@@ -88,13 +88,13 @@ Monday: 9 a.m.–noon
 Wednesday: 9 a.m.–7 p.m.  
 
 **East Tower Ballroom (Gold) Level & West Tower Ballroom (Gold) Level**  
-**East Tower Ballroom (Gold) Level & West Tower Ballroom (Gold) Level**  
 Thursday: 9 a.m.–7 p.m.  
 Friday/Saturday: 9 a.m.–8 p.m.  
 Sunday: 9 a.m.–7 p.m.  
 Monday: 9 a.m.–1 p.m.; 9 a.m.–7 p.m.  
 &nbsp;  
 &nbsp;  
+
 ---
 # Other Info
 ## Tours - various spots
