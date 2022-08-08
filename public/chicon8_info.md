@@ -28,16 +28,16 @@ Thursday: noon–7 p.m.
 Friday: 10 a.m.–7:30 p.m.  
 Saturday/Sunday: 10 a.m.–6 p.m.  
 Monday: 10 a.m.–2 p.m.  
-
-
+  
+  
 ## Con Suite
 **New Orleans/Acapulco - West Tower Ballroom (Gold) Level**  
 Thursday: 1 p.m.–midnight  
 Friday/Saturday/Sunday: 8 a.m.–midnight*  
 Monday: 8 a.m.–noon  
-* \*may stay open later if enough demand*  
-
-
+*&ast;may stay open later if enough demand*  
+  
+  
 ## Dealers Room
 **East Tower Exhibit (Purple) Level**  
 Thursday: noon–6 p.m.  
