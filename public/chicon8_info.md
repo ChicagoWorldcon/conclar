@@ -4,7 +4,7 @@
 
 Welcome to the 80th World Science Fiction Convention - Chicon 8! We’re excited to participate in the con both in-person in the hotel and online around the world! If you are only attending Chicon 8 virtually, filter using the "Virtual" or "Hybrid" tag to see what program items will be accessible to you.
 
-Please note that panels you check for the "My Schedule" option are not sharable amoungst different devices. So, your phone and your ipad will display different lists.
+Please note that panels you check for the "My Schedule" option are not sharable amoungst different devices. So, your phone and your tablet will display different lists.
 
 All times listed below are in CST unless otherwise noted.
 
@@ -21,6 +21,14 @@ All times listed below are in CST unless otherwise noted.
 ---
 # Hours
 
+## Accessibility
+**Grand Suites, East Tower Ballroom (Gold) Level**  
+Wednesday: Noon–7 p.m.*  
+Thursday–Sunday: 9 a.m.–7 p.m.  
+Monday: 9 a.m.–1 p.m.  
+*&ast;pre-registered members only*  
+&nbsp;  
+&nbsp;  
 ## Art Show & Korshak Family Collection
 **West Tower Ballroom (Gold) Level**  
 **Regency A-C / San Francisco**  
@@ -63,7 +71,7 @@ Monday: 9 a.m.–2:30 p.m.
 &nbsp;  
 ## Registration
 **Grand Suites, East Tower Ballroom (Gold) Level**  
-Wednesday: 9 a.m.–7 p.m.*  
+Wednesday: Noon–7 p.m.*  
 Thursday–Sunday: 9 a.m.–7 p.m.  
 Monday: 9 a.m.–1 p.m.  
 *&ast;pre-registered members only*  
@@ -78,7 +86,8 @@ Monday: 9 a.m.–noon
 ## Volunteer Desk
 **East Tower Ballroom (Gold) Level & East Tower Riverside Exhibit (Purple) Level**  
 Wednesday: 9 a.m.–7 p.m.  
-  
+
+**East Tower Ballroom (Gold) Level & West Tower Ballroom (Gold) Level**  
 **East Tower Ballroom (Gold) Level & West Tower Ballroom (Gold) Level**  
 Thursday: 9 a.m.–7 p.m.  
 Friday/Saturday: 9 a.m.–8 p.m.  
