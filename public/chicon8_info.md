@@ -35,7 +35,7 @@ Monday: 10 a.m.–2 p.m.
 Thursday: 1 p.m.–midnight  
 Friday/Saturday/Sunday: 8 a.m.–midnight*  
 Monday: 8 a.m.–noon  
-*&ast;may stay open later if enough demand*  
+*&ast;may stay open later if there is enough demand*  
 &nbsp;  
 &nbsp;  
 ## Dealers Room
