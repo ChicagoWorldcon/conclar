@@ -59,6 +59,10 @@ The main place customisations go is the `src/config.json` file. Settings current
   - `"headers": { "Origin": "http://example.com" }` - Headers sent in the fetch. Origin may be required for Cross Origin Resource Sharing (CORS).
 - `TIMEZONE`: The name of the timezone where your convention takes place. Viewers outside convention timezone will see times in convention time, and their local time below it.
 - `INTERACTIVE`: Set to `false` to get a non-interactive, expanded view of the schedule. The info page is also included, but not the participant list, individual participant pages, or individual item pages (regardless of the `PERMALINK.SHOW_PERMALINK` setting).
+- `HEADER`: Add an optional image to the header of the pages.
+- `HEADER.IMG_SRC`: Set to the image filename to display. May be a file in the public directory. Leave blank for no image.
+- `HEADER.IMG_ALT_TEXT`: Set to the alt text that should display for the image.
+- `HEADER.LINEFEED_AFTER_URL`: If true, place a line feed after the image.
 - `NAVIGATION`: Each value in this section sets the label that will appear on main navigation of the site. Useful for switching between different international spellings of "programme".
 - `NAVIGATION.PROGRAM`: Label for program/programme menu.
 - `NAVIGATION.PEOPLE`: Label for people menu.
@@ -101,6 +105,10 @@ The main place customisations go is the `src/config.json` file. Settings current
 - `PEOPLE.THUMBNAILS.DEFAULT_IMAGE`: Set to default thumbnail for participants with no photo. Can be filename of image in public directory, or external URL. Leave blank for no default thumbnail.
 - `PEOPLE.SORT.SHOW_CHECKBOX`: Set to false to hide "Sort by full name" checkbox. Useful if your data only contains "name for publications".
 - `PEOPLE.SORT.CHECKBOX_LABEL`: Label for "Sort by full name" checkbox.
+- `PEOPLE.TAGS.PLACEHOLDER`: The placeholder when selecting person tags (unless separated).
+- `PEOPLE.TAGS.SEARCHABLE`: Whether the tag list can be searched by typing (unless separated).
+- `PEOPLE.TAGS.HIDE`: If true, hide the tags drop-down. Tags still displayed on items.
+- `PEOPLE.TAGS.SEPARATE`: An array of tag prefixes to separate into individual drop-downs, and if drop-down is searchable or hidden. Tags should be specified as follows: `{ "PREFIX": "type", "PLACEHOLDER": "Select type", "SEARCHABLE": true|false, "HIDE": true|false }`.
 - `PEOPLE.SEARCH.SHOW_SEARCH`: Set to false to hide "people" search box.
 - `PEOPLE.SEARCH.SEARCH_LABEL`: Label for "people2 search box.
 - `PEOPLE.BIO.PURIFY_OPTIONS`: Pass additional options to DOMPurify when processing participant bios. For more details, see `ITEM_DESCRIPTION.PURIFY_OPTIONS` above.

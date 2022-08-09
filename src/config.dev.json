@@ -13,6 +13,11 @@
   },
   "TIMEZONE": "America/Chicago",
   "INTERACTIVE": true,
+  "HEADER": {
+    "IMG_SRC": "/Header_200_2x.png",
+    "IMG_ALT_TEXT": "Chicon 8 Logo",
+    "LINEFEED_AFTER_URL": true
+  },
   "NAVIGATION": {
     "PROGRAM": "Program",
     "PEOPLE": "People",
@@ -108,6 +113,13 @@
     "SORT": {
       "SHOW_CHECKBOX": false,
       "CHECKBOX_LABEL": "Sort by full name"
+    },
+    "TAGS": {
+      "PLACEHOLDER": "Select tags",
+      "SEARCHABLE": false,
+      "HIDE": false,
+      "SEPARATE": [
+      ]
     },
     "SEARCH": {
       "SHOW_SEARCH": true,

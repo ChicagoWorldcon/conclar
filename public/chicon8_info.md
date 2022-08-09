@@ -4,7 +4,7 @@
 
 Welcome to the 80th World Science Fiction Convention - Chicon 8! We’re excited to participate in the con both in-person in the hotel and online around the world! If you are only attending Chicon 8 virtually, filter using the "Virtual" or "Hybrid" tag to see what program items will be accessible to you.
 
-Please note that panels you check for the "My Schedule" option are not sharable amoungst different devices. So, your phone and your ipad will display different lists.
+Please note that panels you check for the "My Schedule" option are not sharable amoungst different devices. So, your phone and your tablet will display different lists.
 
 All times listed below are in CST unless otherwise noted.
 
@@ -21,53 +21,69 @@ All times listed below are in CST unless otherwise noted.
 ---
 # Hours
 
-### Art Show
+## Accessibility
+**Grand Suites, East Tower Ballroom (Gold) Level**  
+Wednesday: Noon–7 p.m.*  
+Thursday–Sunday: 9 a.m.–7 p.m.  
+Monday: 9 a.m.–1 p.m.  
+*&ast;pre-registered members only*  
+&nbsp;  
+&nbsp;  
+## Art Show & Korshak Family Collection
 **West Tower Ballroom (Gold) Level**  
+**Regency A-C / San Francisco**  
 Thursday: noon–7 p.m.  
 Friday: 10 a.m.–7:30 p.m.  
 Saturday/Sunday: 10 a.m.–6 p.m.  
 Monday: 10 a.m.–2 p.m.  
-
-### Con Suite
+&nbsp;  
+&nbsp;  
+## Con Suite
 **New Orleans/Acapulco - West Tower Ballroom (Gold) Level**  
 Thursday: 1 p.m.–midnight  
 Friday/Saturday/Sunday: 8 a.m.–midnight*  
 Monday: 8 a.m.–noon  
-*may stay open later if enough demand*  
-
-### Dealers Room
+*&ast;may stay open later if there is enough demand*  
+&nbsp;  
+&nbsp;  
+## Dealers Room
 **East Tower Exhibit (Purple) Level**  
 Thursday: noon–6 p.m.  
 Friday/Saturday: 10 a.m.–6:30 p.m.  
 Sunday: 10 a.m.–6 p.m.  
 Monday: 10 a.m.–3 p.m.  
-
-### Exhibit Hall
+&nbsp;  
+&nbsp;  
+## Exhibit Hall
 **East Tower Exhibit (Purple) Level**  
 Thursday: noon–7 p.m.  
 Friday/Saturday/Sunday: 10 a.m.–7 p.m.  
 Monday: 10 a.m.–3 p.m.  
-
-### Information Table (Two locations)*
+&nbsp;  
+&nbsp;  
+## Information Table (Two locations)*
 **East Tower & West Tower Ballroom (Gold) Level**  
 Wednesday: noon–7 p.m.  
 Thursday–Sunday: 9 a.m.–7 p.m.  
 Monday: 9 a.m.–2:30 p.m.  
-*West Tower will have limited staffing based on volunteer availability*  
-
-### Registration
+*&ast;West Tower may have limited hours based on volunteer availability*  
+&nbsp;  
+&nbsp;  
+## Registration
 **Grand Suites, East Tower Ballroom (Gold) Level**  
-Wednesday: 9 a.m.–7 p.m.*  
+Wednesday: Noon–7 p.m.*  
 Thursday–Sunday: 9 a.m.–7 p.m.  
 Monday: 9 a.m.–1 p.m.  
-*pre-registered members only*  
-
-### Teen Lounge
+*&ast;pre-registered members only*  
+&nbsp;  
+&nbsp;  
+## Teen Lounge
 **Soldier Field - West Tower Concourse (Bronze) Level**  
 Thursday–Sunday: 9 a.m.–11 p.m.  
 Monday: 9 a.m.–noon  
-
-### Volunteer Desk
+&nbsp;  
+&nbsp;  
+## Volunteer Desk
 **East Tower Ballroom (Gold) Level & East Tower Riverside Exhibit (Purple) Level**  
 Wednesday: 9 a.m.–7 p.m.  
 
@@ -76,8 +92,11 @@ Thursday: 9 a.m.–7 p.m.
 Friday/Saturday: 9 a.m.–8 p.m.  
 Sunday: 9 a.m.–7 p.m.  
 Monday: 9 a.m.–1 p.m.; 9 a.m.–7 p.m.  
+&nbsp;  
+&nbsp;  
 
 ---
+# Other Info
 ## Tours - various spots
 
 Convention Tours will start on the Skybridge near the hotel front desks - look for the signs.  
