@@ -124,7 +124,9 @@ const FilterableProgram = () => {
               onChange={(e) => setSearch(e.target.value)}
             />
           </div>
-          <button className="reset-button" onClick={() => resetFilters()}><MdClear /></button>
+          <div className="filter-reset-button">
+            <button className="reset-button" onClick={() => resetFilters()}><MdClear /></button>
+          </div>
         </div>
         <div className="result-filters">
           <div className="stack">
