@@ -39,7 +39,8 @@
     "SEARCHABLE": true,
     "HIDE": false,
     "SEPARATE": [
-      { "PREFIX": "type", "PLACEHOLDER": "Select format", "SEARCHABLE": true, "HIDE": false }
+      { "PREFIX": "type", "PLACEHOLDER": "Select format", "SEARCHABLE": true, "HIDE": false },
+      { "PREFIX": "Note", "PLACEHOLDER": "Select note", "SEARCHABLE": true, "HIDE": true }
     ],
     "FORMAT_AS_TAG": true,
     "DAY_TAG": {
