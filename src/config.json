@@ -1,9 +1,9 @@
 {
   "BASE_PATH": "/",
   "APP_ID": "W2022",
-  "APP_TITLE": "Chicon 8 Program Guide - dev",
-  "PROGRAM_DATA_URL": "https://planorama.dev.chicon.org/conclar/schedule",
-  "PEOPLE_DATA_URL": "https://planorama.dev.chicon.org/conclar/participants",
+  "APP_TITLE": "Chicon 8 Program Guide - staging",
+  "PROGRAM_DATA_URL": "https://planorama.staging.chicon.org/conclar/schedule",
+  "PEOPLE_DATA_URL": "https://planorama.staging.chicon.org/conclar/participants",
   "FETCH_OPTIONS": {
     "cache": "reload",
     "credentials": "omit",
@@ -40,6 +40,8 @@
     "HIDE": false,
     "SEPARATE": [
       { "PREFIX": "type", "PLACEHOLDER": "Select format", "SEARCHABLE": true, "HIDE": false },
+      { "PREFIX": "Area", "PLACEHOLDER": "Select area", "SEARCHABLE": true, "HIDE": false },
+      { "PREFIX": "Environment", "PLACEHOLDER": "Select format", "SEARCHABLE": true, "HIDE": false },
       { "PREFIX": "Note", "PLACEHOLDER": "Select note", "SEARCHABLE": true, "HIDE": true }
     ],
     "FORMAT_AS_TAG": true,
