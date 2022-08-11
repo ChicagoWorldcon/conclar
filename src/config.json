@@ -41,7 +41,7 @@
     "SEPARATE": [
       { "PREFIX": "type", "PLACEHOLDER": "Select format", "SEARCHABLE": true, "HIDE": false },
       { "PREFIX": "Area", "PLACEHOLDER": "Select area", "SEARCHABLE": true, "HIDE": false },
-      { "PREFIX": "Environment", "PLACEHOLDER": "Select format", "SEARCHABLE": true, "HIDE": false },
+      { "PREFIX": "Environment", "PLACEHOLDER": "Select environment", "SEARCHABLE": true, "HIDE": false },
       { "PREFIX": "Note", "PLACEHOLDER": "Select note", "SEARCHABLE": true, "HIDE": true }
     ],
     "FORMAT_AS_TAG": true,
