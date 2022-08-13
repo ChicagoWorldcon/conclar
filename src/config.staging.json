@@ -12,6 +12,7 @@
     }
   },
   "TIMEZONE": "America/Chicago",
+  "TIMEZONECODE": "CDT",
   "INTERACTIVE": true,
   "HEADER": {
     "IMG_SRC": "/Header_200_2x.png",
@@ -40,6 +41,8 @@
     "HIDE": false,
     "SEPARATE": [
       { "PREFIX": "type", "PLACEHOLDER": "Select format", "SEARCHABLE": true, "HIDE": false },
+      { "PREFIX": "Area", "PLACEHOLDER": "Select area", "SEARCHABLE": true, "HIDE": false },
+      { "PREFIX": "Environment", "PLACEHOLDER": "Select environment", "SEARCHABLE": true, "HIDE": false },
       { "PREFIX": "Note", "PLACEHOLDER": "Select note", "SEARCHABLE": true, "HIDE": true }
     ],
     "FORMAT_AS_TAG": true,
@@ -156,6 +159,12 @@
       "LABEL": "Show local time",
       "NEVER_LABEL": "Never display",
       "DIFFERS_LABEL": "Display if differs from convention time",
+      "ALWAYS_LABEL": "Always show"
+    },
+    "SHOW_TIMEZONE": {
+      "LABEL": "Show timezone after times",
+      "NEVER_LABEL": "Never show",
+      "IF_LOCAL_LABEL": "Show timezone if local time shown",
       "ALWAYS_LABEL": "Always show"
     },
     "SELECT_TIMEZONE": {
