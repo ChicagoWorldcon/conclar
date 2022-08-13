@@ -6,7 +6,7 @@ Welcome to the 80th World Science Fiction Convention - Chicon 8! We’re excited
 
 Please note that panels you check for the "My Schedule" option are not sharable amoungst different devices. So, your phone and your tablet will display different lists.
 
-All times listed below are in CST unless otherwise noted.
+All times listed below are in CDT unless otherwise noted.
 
 ---
 # Links
@@ -14,8 +14,6 @@ All times listed below are in CST unless otherwise noted.
 [Chicon 8 Policies](https://chicon.org/home/policies/)  
 [Code of Conduct](https://chicon.org/home/for-members/code-of-conduct/)  
 [Frequently Asked Questions](https://chicon.org/home/about-worldcon/chicon-8-frequently-asked-questions-august-2020/)  
-
-[At A Glance](https://chicon.org/at-a-glance)
 
 
 ---
