@@ -25,10 +25,10 @@
     "MYSCHEDULE": "My Schedule",
     "INFO": "Information",
     "SETTINGS": "Settings",
-    "EXTRA": [{ "LABEL": "Virtual Chicon 8", "URL": "https://chicon.org" }]
+    "EXTRA": [{ "LABEL": "Chicon 8", "URL": "https://chicon.org" }]
   },
   "LOCATIONS": {
-    "SEARCHABLE": true
+    "SEARCHABLE": false
   },
   "PROGRAM": {
     "SEARCH": {
@@ -37,19 +37,19 @@
   },
   "TAGS": {
     "PLACEHOLDER": "Select tags",
-    "SEARCHABLE": true,
+    "SEARCHABLE": false,
     "HIDE": false,
     "SEPARATE": [
-      { "PREFIX": "type", "PLACEHOLDER": "Select format", "SEARCHABLE": true, "HIDE": false },
-      { "PREFIX": "Area", "PLACEHOLDER": "Select area", "SEARCHABLE": true, "HIDE": false },
-      { "PREFIX": "Environment", "PLACEHOLDER": "Select environment", "SEARCHABLE": true, "HIDE": false },
-      { "PREFIX": "Note", "PLACEHOLDER": "Select note", "SEARCHABLE": true, "HIDE": true }
+      { "PREFIX": "type", "PLACEHOLDER": "Select format", "SEARCHABLE": false, "HIDE": false },
+      { "PREFIX": "Area", "PLACEHOLDER": "Select area", "SEARCHABLE": false, "HIDE": false },
+      { "PREFIX": "Environment", "PLACEHOLDER": "Select environment", "SEARCHABLE": false, "HIDE": false },
+      { "PREFIX": "Note", "PLACEHOLDER": "Select note", "SEARCHABLE": false, "HIDE": true }
     ],
     "FORMAT_AS_TAG": true,
     "DAY_TAG": {
       "GENERATE": true,
       "PLACEHOLDER": "Select days",
-      "SEARCHABLE": true,
+      "SEARCHABLE": false,
       "HIDE": false
     }
   },
