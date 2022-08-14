@@ -25,7 +25,7 @@
     "MYSCHEDULE": "My Schedule",
     "INFO": "Information",
     "SETTINGS": "Settings",
-    "EXTRA": [{ "LABEL": "Virtual Chicon 8", "URL": "https://chicon.org" }]
+    "EXTRA": [{ "LABEL": "Chicon 8", "URL": "https://chicon.org" }]
   },
   "LOCATIONS": {
     "SEARCHABLE": true
