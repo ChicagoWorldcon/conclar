@@ -17,7 +17,7 @@ All times listed below are in CDT unless otherwise noted.
 
 ## Exhibit Hall Map
 
-![Exhibit Hall Map](Exhibit Hall.png)
+[Exhibit Hall Map](Exhibit Hall.png)
 
 ---
 # Hours
