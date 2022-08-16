@@ -15,6 +15,9 @@ All times listed below are in CDT unless otherwise noted.
 [Code of Conduct](https://chicon.org/home/for-members/code-of-conduct/)  
 [Frequently Asked Questions](https://chicon.org/home/about-worldcon/chicon-8-frequently-asked-questions-august-2020/)  
 
+## Exhibit Hall Map
+
+![Exhibit Hall Map](Exhibit Hall.png)
 
 ---
 # Hours
