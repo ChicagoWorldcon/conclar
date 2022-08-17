@@ -20,7 +20,7 @@ All times listed below are in CDT unless otherwise noted.
 [Exhibit Hall Map](Exhibit_Hall.png)
 
 ---
-# Hours
+# Hours and Locations
 
 ## Accessibility
 **Grand Suites, East Tower Ballroom (Gold) Level**  
@@ -102,7 +102,7 @@ Monday: 9 a.m.–1 p.m.; 9 a.m.–7 p.m.
 
 Convention Tours will start on the Skybridge near the hotel front desks - look for the signs.  
 Art Show Docent Tours will start in the Art Show room.  
-Stroll With the Stars will start TBD.  
+Stroll With the Stars will start in the hotel lobby.  
 
 
 
