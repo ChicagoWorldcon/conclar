@@ -16,7 +16,7 @@ Note: We're sorry the schedule is going to be slow to load right now. We are wor
 [Chicon 8 Policies](https://chicon.org/home/policies/)  
 [Code of Conduct](https://chicon.org/home/for-members/code-of-conduct/)  
 [Frequently Asked Questions](https://chicon.org/home/about-worldcon/chicon-8-frequently-asked-questions-august-2020/)  
-[Progress Report 5](https://chicon.org/wp-content/uploads/2022/08/Chicon-8-PR5.pdf)  
+[Progress Report 5 (pdf)](https://chicon.org/wp-content/uploads/2022/08/Chicon-8-PR5.pdf)  
 
 ## Exhibit Hall Map
 
@@ -104,8 +104,6 @@ Thursday: 9 a.m.–7 p.m.
 Friday/Saturday: 9 a.m.–8 p.m.  
 Sunday: 9 a.m.–7 p.m.  
 Monday: 9 a.m.–1 p.m.; 9 a.m.–7 p.m.  
-&nbsp;  
-&nbsp;  
 
 **Monroe 5, East Tower Concourse (Bronze) Level**  
 Tuesday (Sept 6): 9 a.m.–11:30 a.m.  
