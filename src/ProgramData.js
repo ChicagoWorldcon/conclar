@@ -122,8 +122,9 @@ export class ProgramData {
             item.people[index].name.includes("(moderator)") ||
             (item.people[index].hasOwnProperty("role") &&
               item.people[index].role.toLowerCase === "moderator")
-          )
+          ) {
             item.moderator = item.people[index].id;
+          }
           if (fullPerson) {
             // Replace partial person with full person reference.
             item.people[index] = fullPerson;
