@@ -2,11 +2,13 @@
 ---
 # Information
 
-Welcome to the 80th World Science Fiction Convention - Chicon 8! We’re excited to participate in the con both in-person in the hotel and online around the world! If you are only attending Chicon 8 virtually, filter using the "Virtual" or "Hybrid" tag to see what program items will be accessible to you.
+Welcome to the 80th World Science Fiction Convention - Chicon 8! We’re excited to participate in the con both in-person in the hotel and online around the world! If you are only attending Chicon 8 virtually, filter using the "Virtual" or "Hybrid" tag to see what program items will be accessible to you. "Hybrid" indicates those panels and participants that are available both in person and virtually!
 
 Please note that panels you check for the "My Schedule" option are not sharable amoungst different devices. So, your phone and your tablet will display different lists.
 
 All times listed below are in CDT unless otherwise noted.
+
+Note: We're sorry the schedule is going to be slow to load right now. We are working on these issues and hope to have them fixed before the con.
 
 ---
 # Links
@@ -15,9 +17,12 @@ All times listed below are in CDT unless otherwise noted.
 [Code of Conduct](https://chicon.org/home/for-members/code-of-conduct/)  
 [Frequently Asked Questions](https://chicon.org/home/about-worldcon/chicon-8-frequently-asked-questions-august-2020/)  
 
+## Exhibit Hall Map
+
+[Exhibit Hall Map](Exhibit_Hall.png)
 
 ---
-# Hours
+# Hours and Locations
 
 ## Accessibility
 **Grand Suites, East Tower Ballroom (Gold) Level**  
@@ -94,12 +99,11 @@ Monday: 9 a.m.–1 p.m.; 9 a.m.–7 p.m.
 &nbsp;  
 
 ---
-# Other Info
 ## Tours - various spots
 
 Convention Tours will start on the Skybridge near the hotel front desks - look for the signs.  
 Art Show Docent Tours will start in the Art Show room.  
-Stroll With the Stars will start TBD.  
+Stroll With the Stars will start in the hotel lobby.  
 
 
 
