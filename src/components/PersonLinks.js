@@ -58,7 +58,7 @@ const PersonLinks = ({ person }) => {
     // Don't add image links to link display.
     if (type === "img" || type === "photo" || type === "img_256_url") continue;
     // If link not fitting web url template, ignore.
-    if (!person.links[type].match(regex)) continue;
+    if (type !== "website" && !person.links[type].match(regex)) continue;
     // Look up the correct icon.
     const icon = getLinkIcon(type);
     // Add link HTML to array.
