@@ -3,7 +3,7 @@ name: "Build ConClar Docker image for Deploy"
 on:
   push:
     branches:
-      #- main
+      - main
       - staging
       - development
 
