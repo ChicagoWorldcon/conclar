@@ -16,6 +16,7 @@ Note: We're sorry the schedule is going to be slow to load right now. We are wor
 [Chicon 8 Policies](https://chicon.org/home/policies/)  
 [Code of Conduct](https://chicon.org/home/for-members/code-of-conduct/)  
 [Frequently Asked Questions](https://chicon.org/home/about-worldcon/chicon-8-frequently-asked-questions-august-2020/)  
+[Progress Report 5](https://chicon.org/wp-content/uploads/2022/08/Chicon-8-PR5.pdf)  
 
 ## Exhibit Hall Map
 
@@ -24,8 +25,8 @@ Note: We're sorry the schedule is going to be slow to load right now. We are wor
 ---
 # Hours and Locations
 
-## Accessibility
-**Grand Suites, East Tower Ballroom (Gold) Level**  
+## Accessibility Desk
+**Grand Foyer, East Tower Ballroom (Gold) Level**  
 Wednesday: Noon–7 p.m.*  
 Thursday–Sunday: 9 a.m.–7 p.m.  
 Monday: 9 a.m.–1 p.m.  
@@ -42,7 +43,7 @@ Monday: 10 a.m.–2 p.m.
 &nbsp;  
 &nbsp;  
 ## Con Suite
-**New Orleans/Acapulco - West Tower Ballroom (Gold) Level**  
+**Hong Kong/Acapulco - West Tower Ballroom (Gold) Level**  
 Thursday: 1 p.m.–midnight  
 Friday/Saturday/Sunday: 8 a.m.–midnight*  
 Monday: 8 a.m.–noon  
@@ -72,6 +73,14 @@ Monday: 9 a.m.–2:30 p.m.
 *&ast;West Tower may have limited hours based on volunteer availability*  
 &nbsp;  
 &nbsp;  
+## Program Participant Check-In
+**(Near Registration)**  
+Wednesday: 1 p.m.–6 p.m.  
+Thursday: 9 a.m.–7 p.m.  
+Friday: 9 a.m.–7 p.m.  
+Saturday: 9 a.m.–Noon  
+&nbsp;  
+&nbsp;  
 ## Registration
 **Grand Suites, East Tower Ballroom (Gold) Level**  
 Wednesday: Noon–7 p.m.*  
@@ -81,7 +90,7 @@ Monday: 9 a.m.–1 p.m.
 &nbsp;  
 &nbsp;  
 ## Teen Lounge
-**Soldier Field - West Tower Concourse (Bronze) Level**  
+**Soldier Field – West Tower Concourse (Bronze) Level**  
 Thursday–Sunday: 9 a.m.–11 p.m.  
 Monday: 9 a.m.–noon  
 &nbsp;  
@@ -97,6 +106,9 @@ Sunday: 9 a.m.–7 p.m.
 Monday: 9 a.m.–1 p.m.; 9 a.m.–7 p.m.  
 &nbsp;  
 &nbsp;  
+
+**Monroe 5, East Tower Concourse (Bronze) Level**  
+Tuesday (Sept 6): 9 a.m.–11:30 a.m.  
 
 ---
 ## Tours - various spots
