@@ -1,9 +1,9 @@
 {
   "BASE_PATH": "/",
   "APP_ID": "W2022",
-  "APP_TITLE": "Chicon 8 Program Guide - staging",
-  "PROGRAM_DATA_URL": "https://planorama.staging.chicon.org/conclar/schedule",
-  "PEOPLE_DATA_URL": "https://planorama.staging.chicon.org/conclar/participants",
+  "APP_TITLE": "Chicon 8 Program Guide - dev",
+  "PROGRAM_DATA_URL": "https://guide-dev.chicon.org/schedule.jsonp",
+  "PEOPLE_DATA_URL": "https://guide-dev.chicon.org/participants.jsonp",
   "FETCH_OPTIONS": {
     "cache": "reload",
     "credentials": "omit",
