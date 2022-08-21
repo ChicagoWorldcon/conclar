@@ -8,7 +8,7 @@ Please note that panels you check for the "My Schedule" option are not sharable 
 
 All times listed below are in CDT unless otherwise noted.
 
-Note: We're sorry the schedule is going to be slow to load right now. We are working on these issues and hope to have them fixed before the con.
+Airmeet rooms are the virtual rooms. We will have information about Virtual Chicon 8 up soon.
 
 ---
 # Links
