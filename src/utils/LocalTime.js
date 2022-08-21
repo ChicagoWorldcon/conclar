@@ -28,8 +28,8 @@ export class LocalTime {
       this.localTimeZone
     )
       .toLocaleString(language, { timeZoneName: "short" })
-      .split(" ")
-      .at(-1);
+      .split(" ");
+    this.localTimeZoneCode = this.localTimeZoneCode[this.localTimeZoneCode.length - 1];
   }
 
   static get localTimeClass() {
