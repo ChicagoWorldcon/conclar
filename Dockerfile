@@ -19,7 +19,7 @@ ENV NODE_ENV production
 COPY --from=build-stage /app/build /usr/share/nginx/html
 
 # Add your nginx.conf
-COPY --from=build-stage nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=build-stage /nginx.conf /etc/nginx/conf.d/default.conf
 
 # Start nginx
 CMD ["nginx", "-g", "daemon off;"]
