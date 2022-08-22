@@ -6,6 +6,7 @@ COPY package.json ./
 RUN yarn install
 
 COPY . .
+RUN npm install -ci
 RUN npm run build
 
 # Bundle static assets with nginx
