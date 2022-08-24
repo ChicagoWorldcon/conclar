@@ -10,6 +10,8 @@ All times listed below are in CDT unless otherwise noted.
 
 Airmeet rooms are the virtual rooms. We will have information about Virtual Chicon 8 up soon.
 
+[User Guide](conclar_user_guide.md)
+
 ---
 # Links
 
