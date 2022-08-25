@@ -10,7 +10,7 @@ The main page is the Program page. This page shows the scheduled sessions for th
 
 There is an "Expand All/Collapse All" set of buttons located under the filters. This will expand all of the sessions on the screen to show all the details, or collapse them.
 
-Click or tap on a session title and the session will expand and show details such as the description, the panelists, the duration, and various other tags. There is also a "permalink" icon that will link directly to that particular item which can be used to share that item.
+Click or tap on a session title and the session will expand and show details such as the description, the panelists, the duration, and various other tags.
 
 When the session details are expanded and the participants are shown, a participant can be clicked on and it will take you to that participant's page which will have their bio, social media links (if they gave us any), and their schedule at the convention.
 
