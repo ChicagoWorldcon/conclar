@@ -2,8 +2,8 @@
   "BASE_PATH": "/",
   "APP_ID": "W2022",
   "APP_TITLE": "Chicon 8 Program Guide - dev",
-  "PROGRAM_DATA_URL": "https://guide-dev.chicon.org/schedule.jsonp",
-  "PEOPLE_DATA_URL": "https://guide-dev.chicon.org/participants.jsonp",
+  "PROGRAM_DATA_URL": "https://guide-dev.chicon.org/dev/schedule.jsonp",
+  "PEOPLE_DATA_URL": "https://guide-dev.chicon.org/dev/participants.jsonp",
   "FETCH_OPTIONS": {
     "cache": "reload",
     "credentials": "omit",
