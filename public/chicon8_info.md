@@ -172,7 +172,7 @@ A person's name can be clicked on and it will take you to that participant's pag
 
 This page will show the sessions that were selected on the Program page by clicking the checkbox next to the item. At the bottom of the list, it will show a link and a QR code that can be used to sync your choices from one device to another.
 
-If you save the link, this can also be used as a "backup" of your choices. These choices are normally saved in a website cookie, so if your cookies get reset, then your choices will be gone. Saving the link will allow you to restore those choices.
+If you save the link, this can also be used as a "backup" of your choices. These choices are normally saved in your local cache used by your browser, so if your cache gets reset, then your choices will be gone. Saving the link will allow you to restore those choices.
 
 
 ## Information Page

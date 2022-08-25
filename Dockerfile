@@ -6,7 +6,7 @@ COPY package.json ./
 RUN npm install
 
 COPY . .
-#RUN npm install -ci
+
 RUN npm run build
 
 ###
@@ -24,5 +24,3 @@ COPY --from=build-stage /app/nginx.conf /etc/nginx/conf.d/default.conf
 # Start nginx
 CMD ["nginx", "-g", "daemon off;"]
 
-#CMD [ "npx", "serve", "build" ]
-#CMD ["npm", "run", "build"]
