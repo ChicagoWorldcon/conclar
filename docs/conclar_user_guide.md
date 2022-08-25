@@ -6,7 +6,7 @@ It has been developed in ReactJS and is intended to work in all modern browsers.
 
 ## Program Page
 
-The main page is the Program page. This page shows the scheduled sessions for the convention. It currently defaults to show 100 items only. This number can be changed at the top by using the drop down labled "Maximum items displayed". Note that selecting "Show all" may cause the site response to be slow. There are a number of different drop downs that allow you to filter the schedule by different characteristics. There is also a search box that will search the session title, description, or participants.
+The main page is the Program page. This page shows the scheduled sessions for the convention. It currently defaults to show 100 items only. This number can be changed at the top by using the drop down labeled "Maximum items displayed". Note that selecting "Show all" may cause the site response to be slow. There are a number of different drop downs that allow you to filter the schedule by different characteristics. There is also a search box that will search the session title, description, or participants.
 
 There is an "Expand All/Collapse All" set of buttons located under the filters. This will expand all of the sessions on the screen to show all the details, or collapse them.
 
