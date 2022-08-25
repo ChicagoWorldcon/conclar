@@ -126,7 +126,8 @@ export class ProgramData {
             item.people[index] = fullPerson;
           }
         }
-        item.people.sort((a, b) => a.sortname.localeCompare(b.sortname));
+        // item.people.sort((a, b) => a.sortname.localeCompare(b.sortname));
+        item.people.sort((a, b) => (a.sortname && b.sortname) ? a.sortname.localeCompare(b.sortname) : 0 );
       }
     }
   }
