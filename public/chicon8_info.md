@@ -43,7 +43,7 @@ Monday: 10 a.m.–2 p.m.
 &nbsp;  
 &nbsp;  
 ## Con Suite
-**Hong Kong/Acapulco - West Tower Ballroom (Gold) Level**  
+**Toronto/Hong Kong/Acapulco - West Tower Ballroom (Gold) Level**  
 Thursday: 1 p.m.–midnight  
 Friday/Saturday/Sunday: 8 a.m.–midnight*  
 Monday: 8 a.m.–noon  
@@ -90,7 +90,7 @@ Monday: 9 a.m.–1 p.m.
 &nbsp;  
 &nbsp;  
 ## Teen Lounge
-**Soldier Field – West Tower Concourse (Bronze) Level**  
+**Soldier Field, West Tower Concourse (Bronze) Level**  
 Thursday–Sunday: 9 a.m.–11 p.m.  
 Monday: 9 a.m.–noon  
 &nbsp;  
