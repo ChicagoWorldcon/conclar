@@ -70,7 +70,7 @@ Monday: 10 a.m.-3 p.m.
 &nbsp;  
 &nbsp;  
 ## Gaming
-**Horner/Wright/Burnham - West Tower (Silver) Level**  
+**Wright/Horner/Burnham - West Tower (Silver) Level**  
 Thursday: Noon-10 p.m.  
 Friday/Saturday/Sunday: 10 a.m.-10 p.m.  
 Monday: 10 a.m.-2 p.m.  
