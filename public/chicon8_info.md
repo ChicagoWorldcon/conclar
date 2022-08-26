@@ -2,13 +2,15 @@
 ---
 # Information
 
-Welcome to the 80th World Science Fiction Convention - Chicon 8! We’re excited to participate in the con both in-person in the hotel and online around the world! If you are only attending Chicon 8 virtually, filter using the "Virtual" or "Hybrid" tag to see what program items will be accessible to you. "Hybrid" indicates those panels and participants that are available both in person and virtually!
-
-Please note that panels you check for the "My Schedule" option are not sharable amoungst different devices. So, your phone and your tablet will display different lists.
-
-All times listed below are in CDT unless otherwise noted.
+Welcome to the 80th World Science Fiction Convention - Chicon 8! We’re excited to participate in the con both in-person in the hotel and online around the world! If you are only attending Chicon 8 virtually, filter using the "Virtual" or "Streamed" tag to see what program items will be accessible to you. "Streamed" indicates those panels that are done in person and streamed to a virtual room!
 
 Airmeet rooms are the virtual rooms. We will have information about Virtual Chicon 8 up soon.
+
+## Hotel Layout
+
+The Hyatt Regency has 2 towers - the East Tower and the West Tower. Each floor that has function rooms has a color associated with it. The ground level, aka Lobby Level, is Green. The floors above the ground level are the Blue level aka Skyway Level, and then the Silver level aka Third Floor. The floors below the ground level are, in order, the Bronze level aka the Concourse, then the Gold level aka the Ballroom level, then the Purple level aka the Riverside Exhibit level.
+
+There are 3 levels which can be used to move from one tower to the other tower - the Ground/Green level, the Blue/Skyway level, and the Bronze/Concourse level.
 
 ---
 # Links
@@ -24,6 +26,8 @@ Airmeet rooms are the virtual rooms. We will have information about Virtual Chic
 
 ---
 # Hours and Locations
+
+All times listed below are in CDT unless otherwise noted.
 
 ## Accessibility Desk
 **Grand Foyer, East Tower Ballroom (Gold) Level**  
@@ -43,7 +47,7 @@ Monday: 10 a.m.–2 p.m.
 &nbsp;  
 &nbsp;  
 ## Con Suite
-**Hong Kong/Acapulco - West Tower Ballroom (Gold) Level**  
+**Toronto/Hong Kong/Acapulco - West Tower Ballroom (Gold) Level**  
 Thursday: 1 p.m.–midnight  
 Friday/Saturday/Sunday: 8 a.m.–midnight*  
 Monday: 8 a.m.–noon  
@@ -90,7 +94,7 @@ Monday: 9 a.m.–1 p.m.
 &nbsp;  
 &nbsp;  
 ## Teen Lounge
-**Soldier Field – West Tower Concourse (Bronze) Level**  
+**Soldier Field, West Tower Concourse (Bronze) Level**  
 Thursday–Sunday: 9 a.m.–11 p.m.  
 Monday: 9 a.m.–noon  
 &nbsp;  
