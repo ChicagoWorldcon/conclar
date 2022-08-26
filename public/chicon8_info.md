@@ -31,86 +31,108 @@ All times listed below are in CDT unless otherwise noted.
 
 ## Accessibility Desk
 **Grand Foyer, East Tower Ballroom (Gold) Level**  
-Wednesday: Noon–7 p.m.*  
-Thursday–Sunday: 9 a.m.–7 p.m.  
-Monday: 9 a.m.–1 p.m.  
+Wednesday: Noon-7 p.m.*  
+Thursday-Sunday: 9 a.m.-7 p.m.  
+Monday: 9 a.m.-1 p.m.  
 *&ast;pre-registered members only*  
 &nbsp;  
 &nbsp;  
 ## Art Show & Korshak Family Collection
 **West Tower Ballroom (Gold) Level**  
 **Regency A-C / San Francisco**  
-Thursday: noon–7 p.m.  
-Friday: 10 a.m.–7:30 p.m.  
-Saturday/Sunday: 10 a.m.–6 p.m.  
-Monday: 10 a.m.–2 p.m.  
+Thursday: noon-7 p.m.  
+Friday: 10 a.m.-7:30 p.m.  
+Saturday/Sunday: 10 a.m.-6 p.m.  
+Monday: 10 a.m.-2 p.m.  
 &nbsp;  
 &nbsp;  
 ## Con Suite
 **Toronto/Hong Kong/Acapulco - West Tower Ballroom (Gold) Level**  
-Thursday: 1 p.m.–midnight  
-Friday/Saturday/Sunday: 8 a.m.–midnight*  
-Monday: 8 a.m.–noon  
+Thursday: 1 p.m.-midnight  
+Friday/Saturday/Sunday: 8 a.m.-midnight*  
+Monday: 8 a.m.-noon  
 *&ast;may stay open later if there is enough demand*  
 &nbsp;  
 &nbsp;  
 ## Dealers Room
 **East Tower Exhibit (Purple) Level**  
-Thursday: noon–6 p.m.  
-Friday/Saturday: 10 a.m.–6:30 p.m.  
-Sunday: 10 a.m.–6 p.m.  
-Monday: 10 a.m.–3 p.m.  
+Thursday: noon-6 p.m.  
+Friday/Saturday: 10 a.m.-6:30 p.m.  
+Sunday: 10 a.m.-6 p.m.  
+Monday: 10 a.m.-3 p.m.  
 &nbsp;  
 &nbsp;  
 ## Exhibit Hall
 **East Tower Exhibit (Purple) Level**  
-Thursday: noon–7 p.m.  
-Friday/Saturday/Sunday: 10 a.m.–7 p.m.  
-Monday: 10 a.m.–3 p.m.  
+Thursday: noon-7 p.m.  
+Friday/Saturday/Sunday: 10 a.m.-7 p.m.  
+Monday: 10 a.m.-3 p.m.  
+&nbsp;  
+&nbsp;  
+## Gaming
+**Wright/Horner/Burnham - West Tower (Silver) Level**  
+Thursday: Noon-10 p.m.  
+Friday/Saturday/Sunday: 10 a.m.-10 p.m.  
+Monday: 10 a.m.-2 p.m.  
 &nbsp;  
 &nbsp;  
 ## Information Table (Two locations)*
 **East Tower & West Tower Ballroom (Gold) Level**  
-Wednesday: noon–7 p.m.  
-Thursday–Sunday: 9 a.m.–7 p.m.  
-Monday: 9 a.m.–2:30 p.m.  
+Wednesday: noon-7 p.m.  
+Thursday-Sunday: 9 a.m.-7 p.m.  
+Monday: 9 a.m.-2:30 p.m.  
 *&ast;West Tower may have limited hours based on volunteer availability*  
+&nbsp;  
+&nbsp;  
+## Program Operations
+**Columbian, West Tower (Bronze) Level**  
+Wednesday: 1 p.m.-6 p.m.  
+Thursday-Sunday: 9:30 a.m.-7 p.m.  
+Monday: 9:30 a.m.-2 p.m.  
 &nbsp;  
 &nbsp;  
 ## Program Participant Check-In
 **(Near Registration)**  
-Wednesday: 1 p.m.–6 p.m.  
-Thursday: 9 a.m.–7 p.m.  
-Friday: 9 a.m.–7 p.m.  
-Saturday: 9 a.m.–Noon  
+Wednesday: 1 p.m.-6 p.m.  
+Thursday: 9 a.m.-7 p.m.  
+Friday: 9 a.m.-7 p.m.  
+Saturday: 9 a.m.-Noon  
 &nbsp;  
 &nbsp;  
 ## Registration
 **Grand Suites, East Tower Ballroom (Gold) Level**  
-Wednesday: Noon–7 p.m.*  
-Thursday–Sunday: 9 a.m.–7 p.m.  
-Monday: 9 a.m.–1 p.m.  
+Wednesday: Noon-7 p.m.*  
+Thursday-Sunday: 9 a.m.-7 p.m.  
+Monday: 9 a.m.-1 p.m.  
 *&ast;pre-registered members only*  
 &nbsp;  
 &nbsp;  
 ## Teen Lounge
 **Soldier Field, West Tower Concourse (Bronze) Level**  
-Thursday–Sunday: 9 a.m.–11 p.m.  
-Monday: 9 a.m.–noon  
+Thursday-Sunday: 9 a.m.-11 p.m.  
+Monday: 9 a.m.-noon  
 &nbsp;  
 &nbsp;  
 ## Volunteer Desk
 **East Tower Ballroom (Gold) Level & East Tower Riverside Exhibit (Purple) Level**  
-Wednesday: 9 a.m.–7 p.m.  
+Wednesday: 9 a.m.-7 p.m.  
 
 **East Tower Ballroom (Gold) Level & West Tower Ballroom (Gold) Level**  
-Thursday: 9 a.m.–7 p.m.  
-Friday/Saturday: 9 a.m.–8 p.m.  
-Sunday: 9 a.m.–7 p.m.  
-Monday: 9 a.m.–1 p.m.; 9 a.m.–7 p.m.  
+Thursday: 9 a.m.-7 p.m.  
+Friday/Saturday: 9 a.m.-8 p.m.  
+Sunday: 9 a.m.-7 p.m.  
+Monday: 9 a.m.-1 p.m.; 9 a.m.-7 p.m.  
 
 **Monroe 5, East Tower Concourse (Bronze) Level**  
-Tuesday (Sept 6): 9 a.m.–11:30 a.m.  
+Tuesday (Sept 6): 9 a.m.-11:30 a.m.  
+&nbsp;  
+&nbsp;  
+## Writing Lounge
+**Michigan Boardroom, East Tower Concourse (Bronze) Level**  
+Thursday: 10 a.m.-8:30 p.m.  
+Friday/Saturday/Sunday: 8:30 a.m.-8:30 p.m.  
+Monday: 8:30 p.m. - 4 p.m.  
+
 
 ---
 ## Tours - various spots
