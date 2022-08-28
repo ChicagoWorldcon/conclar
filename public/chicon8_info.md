@@ -23,6 +23,7 @@ There are 3 levels which can be used to move from one tower to the other tower -
 
 [What Happens Where](https://chicon.org/what-happens-where/)
 
+
 ## Exhibit Hall Map
 
 [Exhibit Hall Map](Exhibit_Hall.png)
