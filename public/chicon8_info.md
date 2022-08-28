@@ -18,7 +18,10 @@ There are 3 levels which can be used to move from one tower to the other tower -
 [Chicon 8 Policies](https://chicon.org/home/policies/)  
 [Code of Conduct](https://chicon.org/home/for-members/code-of-conduct/)  
 [Frequently Asked Questions](https://chicon.org/home/about-worldcon/chicon-8-frequently-asked-questions-august-2020/)  
-[Progress Report 5 (pdf)](https://chicon.org/wp-content/uploads/2022/08/Chicon-8-PR5.pdf)  
+
+[Chicon 8 At a Glance](https://chicon.org/at-a-glance/)
+
+[What Happens Where](https://chicon.org/what-happens-where/)
 
 ## Exhibit Hall Map
 
