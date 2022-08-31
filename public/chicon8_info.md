@@ -91,6 +91,13 @@ Monday: 9 a.m.-2:30 p.m.
 *&ast;West Tower may have limited hours based on volunteer availability*  
 &nbsp;  
 &nbsp;  
+## Masquerade Registration Desk
+**(Near Registration)**  
+Thursday: 9 a.m.-6 p.m.  
+Friday: 9 a.m.-6 p.m.  
+Saturday: 9 a.m.-11 a.m.  
+&nbsp;  
+&nbsp;  
 ## Program Operations
 **Columbian, West Tower (Bronze) Level**  
 Wednesday: 1 p.m.-6 p.m.  
@@ -100,7 +107,7 @@ Monday: 9:30 a.m.-2 p.m.
 &nbsp;  
 ## Program Participant Check-In
 **(Near Registration)**  
-Wednesday: 1 p.m.-6 p.m.  
+Wednesday: 3 p.m.-6 p.m.  
 Thursday: 9 a.m.-7 p.m.  
 Friday: 9 a.m.-7 p.m.  
 Saturday: 9 a.m.-Noon  
