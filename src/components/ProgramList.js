@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import PropTypes from "prop-types";
 import { useStoreState } from "easy-peasy";
 import { LocalTime } from "../utils/LocalTime";
@@ -7,9 +8,9 @@ import configData from "../config.json";
 
 const ProgramList = ({ program, forceExpanded }) => {
   const showLocalTime = useStoreState((state) => state.showLocalTime);
-  const programDisplayLimit = useStoreState(
-    (state) => state.programDisplayLimit
-  );
+  useEffect(() => {
+    LocalTime.storeCachedTimes();
+  });
 
   LocalTime.checkTimeZonesDiffer(program);
 
@@ -24,17 +25,8 @@ const ProgramList = ({ program, forceExpanded }) => {
       </div>
     );
   }
-  // If limit on program, slice the program.
-  const displayLimit =
-    programDisplayLimit === null
-      ? configData.PROGRAM.LIMIT.DEFAULT
-      : programDisplayLimit;
-  const displayProgram =
-    configData.PROGRAM.LIMIT.SHOW && !isNaN(displayLimit)
-      ? program.slice(0, displayLimit)
-      : program;
 
-  displayProgram.forEach((item) => {
+  program.forEach((item) => {
     const itemDate = item.dateAndTime
       .withTimeZone(LocalTime.conventionTimeZone)
       .round({ smallestUnit: "day", roundingMode: "floor" });
@@ -83,6 +75,7 @@ const ProgramList = ({ program, forceExpanded }) => {
     ) : (
       ""
     );
+
   return (
     <div className="program-container">
       {conventionTime}
