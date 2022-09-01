@@ -66,6 +66,7 @@ export class ProgramData {
     program.map((item) => {
       const startTime = this.processDateAndTime(item);
       item.dateAndTime = startTime.withTimeZone(utcTimeZone);
+      item.timeSlot = LocalTime.getTimeSlot(item.dateAndTime);
       return item;
     });
     program.sort((a, b) => {
@@ -130,8 +131,7 @@ export class ProgramData {
             item.people[index] = fullPerson;
           }
         }
-         item.people.sort((a, b) => a.sortname.localeCompare(b.sortname));
-        // item.people.sort((a, b) => (a.sortname && b.sortname) ? a.sortname.localeCompare(b.sortname) : 0 );
+        item.people.sort((a, b) => a.sortname.localeCompare(b.sortname));
       }
     }
   }
