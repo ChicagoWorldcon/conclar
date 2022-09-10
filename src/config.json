@@ -11,6 +11,12 @@
       "Origin": "http://example.com"
     }
   },
+  "FETCH_OPTIONS_FIRST": {
+    "credentials": "omit",
+    "headers": {
+      "Origin": "http://example.com"
+    }
+  },
   "TIMEZONE": "America/Chicago",
   "TIMEZONECODE": "CDT",
   "INTERACTIVE": true,
@@ -221,7 +227,7 @@
   },
   "TIMER": {
     "FETCH_INTERVAL_MINS": 30,
-    "TIMER_TICK_SECS": 15
+    "TIMER_TICK_SECS": 300
   },
   "DEBUG_MODE": {
     "ENABLE": false,
